@@ -3,8 +3,8 @@ module.exports = {
  content: [
   './app/**/*.{js,ts,jsx,tsx}',
   './components/**/*.{js,ts,jsx,tsx}',
-  './src/styles/**/*.{js,ts,jsx,tsx}', 
-  './styles.js',// if styles.js is here
+  './styles/**/*.{js,ts,jsx,tsx}', 
+  
 ],
   mode: "jit",
   theme: {
