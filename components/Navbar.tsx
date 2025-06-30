@@ -55,13 +55,13 @@ const Navbar = () => {
       <div
         className={`${
           toggle ? "flex" : "hidden"
-        } p-6 bg-gray-900 absolute top-20 right-4 mx-4 my-4 min-w-[140px] rounded-xl z-50 flex-col`}
+        } p-6 glass-card absolute top-20 right-4 mx-4 my-4 min-w-[140px] rounded-xl  flex-col`}
       >
         <ul className="list-none flex flex-col items-start">
           {NAV_LINKS.map((link, index) => (
             <li
               key={link.label}
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary ${
+              className={`z-50 font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary ${
                 index !== NAV_LINKS.length - 1 ? "mb-4" : ""
               }`}
             >
