@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Stats/>
       <AboutX />
+      <Stats/>
       <ServicesX/>
       <WhyX/>
       <CTA/>
