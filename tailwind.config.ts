@@ -10,7 +10,7 @@ module.exports = {
   safelist: [
   // === Common Utilities ===
   'max-w-[100vw]', 'w-full', 'w-[200px]',
-  'py-2', 'px-2', 'px-2', 'mb-4', 'm-4',
+  'py-2', 'px-2', 'mb-4', 'm-4',
   'font-poppins', 'font-Amatic_SC',
   'font-medium', 'font-semibold', 'font-normal',
   'text-primary', 'text-dimWhite', 'text-black',

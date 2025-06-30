@@ -29,7 +29,7 @@ const WhyX = () => {
             success is our ultimate goal!
           </div>
         </div>
-        <div className="md:flex flex-row relative z-[50]">
+       <div className="md:flex flex-row relative z-[5]">
           <Button href="/about" title="ABOUT US" variant="buttonPrimary" />
           <Button href="/services" title="SERVICES" variant="buttonSecondary" />
         </div>

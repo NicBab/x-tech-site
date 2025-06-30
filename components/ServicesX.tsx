@@ -3,8 +3,8 @@ import { Button } from "@/components";
 
 const ServicesX = () => {
   return (
-    <section id="ServicesX" className={`${layout.section} bg-primary p-[25px]`}>
-      <div className={`${layout.sectionInfo} z-[4]`}>
+    <section id="ServicesX" className={`${layout.section} p-[25px]`}>
+      <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
         
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
@@ -19,7 +19,7 @@ const ServicesX = () => {
           improve operations and optimize your return on investment. Your
           success is our ultimate goal!
         </div>
-        <div className="md:flex flex-row relative z-[50]">
+        <div className="md:flex flex-row relative z-[5]">
           <Button href="/" title="SERVICES" variant="buttonPrimary" />
           <Button href="/" title="CONTACT" variant="buttonSecondary" />
         </div>

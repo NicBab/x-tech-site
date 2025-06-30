@@ -41,7 +41,10 @@ export const STATS = [    {
       id: "stats-4",
       title: "DESIGN",
       value: "",
-    },
+    }
+  ];
+  
+  export const STATS2 = [
     {
       id: "stats-5",
       title: "MANAGEMENT",
