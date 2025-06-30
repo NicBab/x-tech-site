@@ -11,14 +11,14 @@
   //SOCIAL MEDIA ICONS
   export const SOCIALS_ICONS = [
   {
-    title: "linkedIn",
-    icon: "/linkedIn.svg",
-    href: "https://www.linkedin.com/in/nic-babineaux/",
+    title: "linkedin",
+    icon: "/linkedin.svg",
+    href: "",
   },
   {
-    title: "Github",
+    title: "facebook",
     icon: "/facebook.svg",
-    href: "https://github.com/NicBab",
+    href: "",
   },
 ];
 
