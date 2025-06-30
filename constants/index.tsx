@@ -106,12 +106,11 @@ export const STATS = [    {
       links: [
         'About ',
         'Jobs',
-        'Contact Us',
       ],
     },
     {
       title: 'Our Community',
-      links: ['salon', 'products', 'stylists'],
+      links: ['products', '', ''],
     },
   ];
   

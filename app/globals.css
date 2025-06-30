@@ -122,22 +122,24 @@ body {
 
 .glass-card {
   background: linear-gradient(144.39deg,
-      #fffffff1 -200.56%,
-      #6d6d6d3c -78.47%,
-      #11101d7d 91.61%);
-  backdrop-filter: blur(6px);
+    #fffffff1 -200.56%,
+    #6d6d6d3c -78.47%,
+    #11101d7d 91.61%);
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgb(69, 44, 99);
+  border: 2px solid #fb923c; /* <-- orange from Tailwind config */
+  border-radius: 20px;
 }
 
 .glass-card-2 {
   background: linear-gradient(144.39deg,
-      #fffffff1 -200.56%,
-      #6d6d6d3c -78.47%,
-      #11101d7d 91.61%);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(2px);
-  border: 1px solid  #5ce1e6;
+    #fffffff1 -200.56%,
+    #6d6d6d3c -78.47%,
+    #11101d7d 91.61%);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #fb923c; /* <-- orange from Tailwind config */
+  border-radius: 10px;
 }
 
 .sidebar {

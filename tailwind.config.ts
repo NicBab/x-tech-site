@@ -65,7 +65,7 @@ module.exports = {
       backgroundImage: {
         'black-gradient': 'linear-gradient(180deg, #000 0%, #222 100%)',
         'binary-tunnel': "url('/binary_tunnel.png')",
-        'CTA-texture': "url('/seamless-cyber-tech-pattern.jpg')",
+        'CTA-texture': "url('/modern-tech-binary.jpg')",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

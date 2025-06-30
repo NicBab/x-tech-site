@@ -4,6 +4,7 @@ import { Button } from "@/components"
 const Hero = () => {
   return (
    <section className="relative w-full bg-primary overflow-hidden">
+ 
   {/* Background Image */}
   <div className="absolute inset-0 z-0 opacity-20">
     <Image
@@ -15,8 +16,15 @@ const Hero = () => {
     />
   </div>
 
+  {/* Phone Number Glass Card */}
+  <div className="absolute top-5 left-1/2 transform -translate-x-1/2 z-20">
+<div className="glass-card-2 px-3 py-2 ss:px-6 ss:py-4 text-sm font-semibold text-center shadow-md">
+  <span className="orange-text-gradient text-[14px] ss:text-[25px]"> 1 (337) 326-5570 </span>
+</div>
+  </div>
+ 
   {/* Foreground Content */}
-  <div className={`relative z-10 flex ${styles.paddingY} ${styles.flexCenter}`}>
+  <div className={`relative z-10 flex ${styles.paddingY} ${styles.flexCenter}`}> 
     <div className="xl:px-0 sm:px-16 p-10">
       <div className="flex flex-wrap-row justify-between items-center w-full">
         <h1 className="flex-1 mb-5 font-poppins font-semibold ss:text-[25px] text-[18px] text-dimWhite ss:leading-[40px] leading-[40px]">

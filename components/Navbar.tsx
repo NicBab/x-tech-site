@@ -21,6 +21,7 @@ const Navbar = () => {
         className="w-[70px] h-[50px]"
       />
       <Socials className="" />
+      
 
       {/* Desktop nav */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

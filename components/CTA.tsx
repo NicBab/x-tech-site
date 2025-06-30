@@ -3,35 +3,31 @@ import { Button, Socials } from "@/components";
 
 const CTA = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} mt-[50px] bg-primary`}>
-      <div className="relative w-[80%]  overflow-hidden flex flex-col sm:flex-row items-center justify-between p-10">
-        {/* Background image */}
-        <div className="absolute inset-0 z-0 border-2 border-orange rounded-[20px]">
-          <img
-            src="/seamless-cyber-tech-pattern.jpg"
-            alt="Background"
-            className="w-full h-full object-cover opacity-20"
-          />
-        </div>
+   <section className={`${styles.marginY} relative w-full h-auto overflow-hidden bg-CTA-texture bg-cover bg-center bg-no-repeat`}>
+  {/* Background dim overlay */}
+  <div className="absolute inset-0 bg-black opacity-60 z-0 rounded-[20px]" />
 
-        {/* Optional gradient overlay */}
-        <div className="absolute z-0 w-[50%] h-[60%] rounded-full purple__gradient top-0 left-0 opacity-30" />
+  {/* Glass card container with existing layout styles */}
+  <div className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} relative z-10`}>
+    <div className="glass-card border-orange border rounded-[20px] w-full flex flex-col sm:flex-row justify-between items-center p-8">
+      
+      {/* Heading */}
+      <div className="flex-1 flex flex-col items-start sm:items-start mb-6 sm:mb-0">
+        <h2 className={`${styles.heading2} text-[40px]`}>
+          Contact us for all your Automation needs!
+        </h2>
+      </div>
 
-        {/* Foreground content */}
-        <div className="z-10 flex-1 flex flex-col">
-          <h2 className={`${styles.heading2} text-[40px]`}>
-            Contact us for all your Automation needs!
-          </h2>a
-        </div>
-
-        <div className="z-10 flex flex-col sm:ml-10 ml-0 sm:mt-0 mt-10">
-          <Button href="/contact" title="CONTACT" variant="buttonPrimary" />
-          <div className={`${styles.flexCenter} max-w-[470px] m-5`}>
-            <Socials />
-          </div>
+      {/* Button & Socials */}
+      <div className={`${styles.flexCenter} flex-col sm:ml-10`}>
+        <Button href="/contact" title="CONTACT" variant="buttonPrimary" />
+        <div className={`${styles.flexCenter} max-w-[470px] m-5`}>
+          <Socials />
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
   );
 };
 
