@@ -9,11 +9,11 @@ const AboutX = () => {
           <img
             src="/305_panel_3.png"
             alt="305_panel_3"
-            className="w-[180px] h-[200px] sm:w-[400px] sm:h-[550px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
+            className="w-[220px] h-[280px] sm:w-[400px] sm:h-[550px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
       </div>
-      <div className="absolute z-[0] w-[60%] h-[50%] rounded-full bottom-50 left-5 orange__gradient opacity-[.1]"></div>
+      <div className="absolute z-[0] w-[60%] h-[50%] rounded-full bottom-50 left-5 orange__gradient opacity-[.2]"></div>
       <div className={`${layout.sectionInfo}`}>
         <h2 className={`${styles.heading2}`}>About...</h2>
         <div className={`${styles.paragraph} max-w-[700px]`}>

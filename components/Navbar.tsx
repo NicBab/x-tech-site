@@ -21,7 +21,6 @@ const Navbar = () => {
         className="w-[70px] h-[50px]"
       />
       <Socials className="" />
-      
 
       {/* Desktop nav */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -55,17 +54,21 @@ const Navbar = () => {
       <div
         className={`${
           toggle ? "flex" : "hidden"
-        } p-6 glass-card absolute top-20 right-4 mx-4 my-4 min-w-[140px] rounded-xl  flex-col`}
+        } p-6 glass-card absolute top-20 right-4 mx-4 my-4 min-w-[140px] rounded-xl flex-col`}
       >
         <ul className="list-none flex flex-col items-start">
           {NAV_LINKS.map((link, index) => (
             <li
               key={link.label}
-              className={`z-50 font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary ${
+              className={`z-50 font-poppins font-normal cursor-pointer text-[16px] text-white ${
                 index !== NAV_LINKS.length - 1 ? "mb-4" : ""
               }`}
             >
-              <Link href={link.href}>{link.label}</Link>
+              <Link href={link.href}>
+                <span className="hover-orange-text-gradient transition-all duration-200">
+                  {link.label}
+                </span>
+              </Link>
             </li>
           ))}
         </ul>

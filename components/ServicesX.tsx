@@ -10,7 +10,7 @@ const ServicesX = () => {
           <br className="sm:block hidden mt-10" />
           Services...
         </h2>
-        <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-90 right-10 orange__gradient opacity-[.1]"></div>
+        <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-90 right-10 orange__gradient opacity-[.2]"></div>
         <div className={`${styles.paragraph} max-w-[700px]`}>
           At XTechnology, we place your satisfaction at the forefront our
           efforts. We work hand-in-hand with you to gain a deep understanding of
@@ -20,8 +20,8 @@ const ServicesX = () => {
           success is our ultimate goal!
         </div>
         <div className="md:flex flex-row relative z-[50]">
-          <Button href="/" title="Our Services" variant="buttonPrimary" />
-          <Button href="/" title="Contact Us" variant="buttonSecondary" />
+          <Button href="/" title="SERVICES" variant="buttonPrimary" />
+          <Button href="/" title="CONTACT" variant="buttonSecondary" />
         </div>
       </div>
 
@@ -30,14 +30,14 @@ const ServicesX = () => {
           <img
             src="/305_panel_6.png"
             alt="305_panel_1"
-            className="w-[180px] h-[120px] sm:w-[450px] sm:h-[320px] relative top-5 right-10 rounded-md z-[3] shadow-3"
+            className="w-[200px] h-[200px] sm:w-[500px] sm:h-[400px] relative top-5 right-10 rounded-md z-[3] shadow-3"
           />
         </div>
         <div className={`${styles.flexCenter} `}>
           <img
             src="305_panel_1.png"
             alt="hmi_sensor_readings"
-            className="w-[180px] h-[120px] sm:w-[390px] sm:h-[280px] relative rounded-md z-[2] shadow-3"
+            className="w-[200px] h-[200px] sm:w-[500px] sm:h-[400px] relative rounded-md z-[2] shadow-3"
           />
         </div>
       </div>

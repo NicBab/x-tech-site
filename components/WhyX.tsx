@@ -14,11 +14,11 @@ const WhyX = () => {
         </div>
       </div>
       <div className={`${layout.sectionInfo} mb-10`}>
-        <h2 className={`${styles.heading2}`}>
+        <h2 className={`${styles.heading2} ${styles.flexCenter}`}>
           <br className="sm:block hidden" />
-          Why XTechnology?
+          Why Choose XTechnology?
         </h2>
-                <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.1]"></div>
+                <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div>
         <div className={`max-w-[700px]`}>
           <div className={`${styles.paragraph}`}>
             At XTechnology, we place your satisfaction at the forefront our
@@ -30,8 +30,8 @@ const WhyX = () => {
           </div>
         </div>
         <div className="md:flex flex-row relative z-[50]">
-          <Button href="/about" title="More About Us" variant="buttonPrimary" />
-          <Button href="/services" title="Services" variant="buttonSecondary" />
+          <Button href="/about" title="ABOUT US" variant="buttonPrimary" />
+          <Button href="/services" title="SERVICES" variant="buttonSecondary" />
         </div>
       </div>
     </section>

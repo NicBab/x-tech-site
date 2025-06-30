@@ -4,7 +4,7 @@ const styles = {
     buttonPrimary: "py-2 px-1 m-3 w-[180px] bg-orange-gradient font-poppins font-medium text-[16px] text-primary rounded-full hover:text-blueText",
     buttonSecondary: "py-2 px-1 m-3 w-[180px] orange-text-gradient font-poppins font-medium text-[16px] border border-1 border-orange hover:border-blueText rounded-full",
 
-    heading2: "font-poppins flex justify-center font-semibold xs:text-[48px] text-[40px] orange-text-gradient xs:leading-[85px] leading-[50px] w-full",
+    heading2: "p-5 font-poppins flex justify-center font-semibold xs:text-[48px] text-[40px] orange-text-gradient xs:leading-[85px] leading-[50px] w-full",
     paragraph: "p-5 font-poppins text-[14px] text-dimWhite md:text-[14px] leading-[35px] indent-5",
 
     cardHeading: "font-Amatic_SC flex justify-center font-semibold text-[80px] text-black leading-[40px] w-full mt-3",

@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col gap-5">
-              <FooterColumn title="Socials">
+              <FooterColumn title="">
                 <Socials />
               </FooterColumn>
             </div>

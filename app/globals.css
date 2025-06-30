@@ -82,6 +82,14 @@ body {
   text-fill-color: transparent;
 }
 
+.hover-orange-text-gradient:hover {
+  background: linear-gradient(135.9deg, #fb923c 20%, #f97316 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .blue-text-gradient {
   background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
       #def9fa 0.89%,
@@ -129,6 +137,7 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border: 2px solid #fb923c; /* <-- orange from Tailwind config */
   border-radius: 20px;
+  pointer-events: auto;
 }
 
 .glass-card-2 {
@@ -139,7 +148,7 @@ body {
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid #fb923c; /* <-- orange from Tailwind config */
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .sidebar {

@@ -15,7 +15,7 @@ const Socials = ({ className }: SocialsProps) => {
             key={link.title}
             width={21}
             height={21}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+            className={`w-[21px] h-[21px] object-contain cursor-pointer text-white ${
               index !== SOCIALS_ICONS.length - 1 ? "mr-6" : "mr-0"
             }`}
             onClick={() => window.open(link.href)}
