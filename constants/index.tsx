@@ -59,13 +59,13 @@ export const STATS = [    {
     },
   ];
   
-  // CAMP SECTION
-  export const PEOPLE_URL = [
-    '/person-1.png',
-    '/person-2.png',
-    '/person-3.png',
-    '/person-4.png',
-  ];
+  // // CAMP SECTION
+  // export const PEOPLE_URL = [
+  //   '/person-1.png',
+  //   '/person-2.png',
+  //   '/person-3.png',
+  //   '/person-4.png',
+  // ];
   
   // FEATURES SECTION
   export const FEATURES = [
@@ -119,7 +119,7 @@ export const STATS = [    {
     title: 'Contact Us',
     links: [
       { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: '@gmail.com' },
+      { label: 'Email Officer', value: 'admin@xtechnology-usa.com' },
     ],
   };
   

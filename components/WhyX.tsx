@@ -14,7 +14,7 @@ const WhyX = () => {
         </div>
       </div>
       <div className={`${layout.sectionInfo} mb-10`}>
-        <h2 className={`${styles.heading2} text-[30px]`}>
+        <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden" />
           Why XTechnology?
         </h2>
@@ -30,8 +30,8 @@ const WhyX = () => {
           </div>
         </div>
         <div className="md:flex flex-row relative z-[50]">
-          <Button href="/about" title="More About Us" variant="text-dimWhite" />
-          <Button href="/services" title="Services" variant="text-dimWhite" />
+          <Button href="/about" title="More About Us" variant="buttonPrimary" />
+          <Button href="/services" title="Services" variant="buttonSecondary" />
         </div>
       </div>
     </section>

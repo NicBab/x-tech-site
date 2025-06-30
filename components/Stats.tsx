@@ -12,7 +12,7 @@ const Stats = () => {
           className={`flex-1 flex justify-center items-center flex-row m-3`}
         >
           <p
-            className={`${styles.flexCenter} orange-text-gradient font-poppins font-normal xs:text-[20px] text-[16px] tracking-wider xs:leading-[53px] leading-[43px] uppercase ml-3`}
+            className={`${styles.flexCenter} orange-text-gradient font-poppins font-normal xs:text-[20px] text-[20px] tracking-wider xs:leading-[53px] leading-[43px] uppercase ml-3`}
           >
             {stat.title}
           </p>

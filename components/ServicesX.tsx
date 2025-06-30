@@ -6,7 +6,7 @@ const ServicesX = () => {
     <section id="ServicesX" className={`${layout.section} bg-primary p-[25px]`}>
       <div className={`${layout.sectionInfo} z-[4]`}>
         
-        <h2 className={`${styles.heading2} text-[30px]`}>
+        <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
           Services...
         </h2>
@@ -20,8 +20,8 @@ const ServicesX = () => {
           success is our ultimate goal!
         </div>
         <div className="md:flex flex-row relative z-[50]">
-          <Button href="/" title="VIEW PORTFOLIO" variant="text-dimWhite" />
-          <Button href="/" title="VIEW RESUME" variant="text-dimWhite" />
+          <Button href="/" title="Our Services" variant="buttonPrimary" />
+          <Button href="/" title="Contact Us" variant="buttonSecondary" />
         </div>
       </div>
 

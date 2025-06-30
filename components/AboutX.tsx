@@ -15,7 +15,7 @@ const AboutX = () => {
       </div>
       <div className="absolute z-[0] w-[60%] h-[50%] rounded-full bottom-50 left-5 orange__gradient opacity-[.1]"></div>
       <div className={`${layout.sectionInfo}`}>
-        <h2 className={`${styles.heading2} text-[30px]`}>About...</h2>
+        <h2 className={`${styles.heading2}`}>About...</h2>
         <div className={`${styles.paragraph} max-w-[700px]`}>
           At XTechnology we deliver integrated technology and design solutions,
           specializing in automation efficiency and productivity to optimize
@@ -29,8 +29,8 @@ const AboutX = () => {
           projects.
         </div>
         <div className="md:flex flex-row relative z-[50]">
-          <Button href="/about" title="MORE ABOUT US" variant="text-dimWhite" />
-          <Button href="/contact" title="CONTACT US" variant="text-dimWhite" />
+          <Button href="/about" title="MORE ABOUT US" variant="buttonPrimary" />
+          <Button href="/contact" title="CONTACT US" variant="buttonSecondary" />
         </div>
       </div>
     </section>

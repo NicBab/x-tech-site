@@ -8,33 +8,31 @@ type ButtonProps = {
   type?: 'button' | 'submit';
   title: string;
   icon?: string;
-  variant?: string; // this will be a full Tailwind class string
+  variant?: 'buttonPrimary' | 'buttonSecondary';
   href?: string;
 };
 
-const Button = ({ type = 'button', title, icon, variant = '', href }: ButtonProps) => {
-  const baseClasses = `${styles.flexCenter} gap-3 rounded-full border ${variant}`;
+const Button = ({
+  type = 'button',
+  title,
+  icon,
+  variant = 'buttonPrimary',
+  href,
+}: ButtonProps) => {
+  const appliedStyles = styles[variant] || '';
 
   const content = (
-    <>
+    <div className={`flex items-center justify-center gap-3 ${appliedStyles}`}>
       {icon && <Image src={icon} alt={title} width={24} height={24} />}
       <span className="bold-16 whitespace-nowrap">{title}</span>
-    </>
+    </div>
   );
 
   if (href) {
-    return (
-      <Link href={href} className={baseClasses}>
-        {content}
-      </Link>
-    );
+    return <Link href={href}>{content}</Link>;
   }
 
-  return (
-    <button type={type} className={baseClasses}>
-      {content}
-    </button>
-  );
+  return <button type={type}>{content}</button>;
 };
 
 export default Button;

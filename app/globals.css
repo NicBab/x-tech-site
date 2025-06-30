@@ -9,6 +9,7 @@
 
 body {
   scroll-behavior: smooth;
+  background-color: #1a1a1a;
 }
 
 :root {
@@ -55,6 +56,14 @@ body {
   background: linear-gradient(#11101d 91.61%,
       #6d6d6d -78.47%,
       #ffffff -278.56%);
+}
+
+.bg-orange-gradient {
+  background: linear-gradient(135.9deg, #fb923c 20%, #f97316 60%);
+}
+
+.orange-gradient {
+  background: linear-gradient(180deg, rgba(255, 213, 153, 0) 0%, #fca85d 100%);
 }
 
 .purple-text-gradient {
