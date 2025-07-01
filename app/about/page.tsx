@@ -43,7 +43,7 @@ const AboutPage = () => {
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
           <div className={`${styles.flexCenter}`}>
             <img
-              src="/frac_panel.png"
+              src="/fulllogo_transparent.png"
               alt="frac_panel"
               className="w-[300px] h-[240px] sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
             />
@@ -73,7 +73,6 @@ const AboutPage = () => {
           <div className="md:flex flex-row relative z-[5]">
             <Button href="/services" title="SERVICES" variant="buttonPrimary" />
           <Button href="/contact" title="CONTACT US" variant="buttonSecondary" />
-
           </div>
         </div>
       </section>
