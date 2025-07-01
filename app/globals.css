@@ -138,6 +138,7 @@ body {
   border: 2px solid #fb923c; /* <-- orange from Tailwind config */
   border-radius: 20px;
   pointer-events: auto;
+  
 }
 
 .glass-card-2 {

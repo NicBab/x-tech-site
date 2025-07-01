@@ -105,7 +105,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Our Community:",
-    links: ["products", "", ""],
+    links: ["Our Team", "History"],
   },
 ];
 

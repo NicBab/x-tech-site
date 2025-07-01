@@ -3,7 +3,7 @@ import styles from "../style";
 import { Button } from "@/components";
 const Hero = () => {
   return (
-    <section className="relative w-full bg-primary overflow-hidden">
+    <section className="relative w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
         <Image
@@ -45,10 +45,10 @@ const Hero = () => {
               height={600}
               className="relative z-[2]"
             />
-            <div className="absolute z-[1] w-[30%] h-[60%] top-5 orange__gradient"></div>
+            <div className="absolute z-[1] w-[40%] h-[60%] top-20 orange__gradient opacity-[.8]"></div>
           </div>
 
-          <div className="max-w-[400px] min-w-[250px] mt-5 z-2">
+          <div className="max-w-[400px] min-w-[250px] m-5 z-2">
             <span className="ss:text-[35px] text-[20px] orange-text-gradient">
               Ready to Optimize Your Control Systems?
             </span>
