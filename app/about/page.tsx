@@ -4,7 +4,7 @@ import { Button } from "@/components";
 const AboutPage = () => {
   return (
     <>
-      <section className="relative w-full overflow-hidden">
+      <section id="AboutPage" className="relative w-full overflow-hidden">
         <div className={`relative z-1 flex ${styles.flexCenter}`}>
           <div className="xl:px-0 sm:px-16">
             <div className="max-w-[700px] min-w-[250px] z-2">
