@@ -43,7 +43,7 @@ export const STATS = [    {
       value: "",
     }
   ];
-  
+
   export const STATS2 = [
     {
       id: "stats-5",
@@ -105,22 +105,22 @@ export const STATS = [    {
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
-      title: 'Learn More',
+      title: 'Learn More:',
       links: [
         'About ',
         'Jobs',
       ],
     },
     {
-      title: 'Our Community',
+      title: 'Our Community:',
       links: ['products', '', ''],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
-    title: 'Contact Us',
+    title: 'Contact Us:',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
+      { label: 'Admin Officer', value: '(337) 326-5570' },
       { label: 'Email Officer', value: 'admin@xtechnology-usa.com' },
     ],
   };

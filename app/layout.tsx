@@ -38,7 +38,7 @@ export default function RootLayout({
         </div>
       </div>
         <main className={`${amatic.variable} relative overflow-hidden`}>{children}</main>
-           <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+           <div className={`${styles.paddingX} ${styles.flexCenter} bg-black`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
