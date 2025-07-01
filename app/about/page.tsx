@@ -38,7 +38,7 @@ const AboutPage = () => {
 
       <section
         id="AboutPage"
-        className={`${layout.section} ${styles.margins} `}
+        className={`${styles.margins} flex md:flex-row flex-col`}
       >
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
           <div className={`${styles.flexCenter}`}>
@@ -72,6 +72,8 @@ const AboutPage = () => {
           </div>
           <div className="md:flex flex-row relative z-[5]">
             <Button href="/services" title="SERVICES" variant="buttonPrimary" />
+          <Button href="/contact" title="CONTACT US" variant="buttonSecondary" />
+
           </div>
         </div>
       </section>

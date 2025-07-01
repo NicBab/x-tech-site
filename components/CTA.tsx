@@ -5,7 +5,7 @@ const CTA = () => {
   return (
    <section className={`${styles.marginY} relative w-full h-auto overflow-hidden bg-CTA-texture bg-cover bg-center bg-no-repeat`}>
   {/* Background dim overlay */}
-  <div className="absolute inset-0 bg-black opacity-[.7] z-0 rounded-[20px]" />
+  <div className="absolute inset-0 bg-black opacity-[.7] z-0" />
 
   {/* Glass card container with existing layout styles */}
   <div className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} relative z-10`}>
@@ -20,7 +20,7 @@ const CTA = () => {
 
       {/* Button & Socials */}
       <div className={`${styles.flexCenter} flex-col sm:ml-10`}>
-        <Button href="/contact" title="CONTACT" variant="buttonPrimary" />
+        <Button href="/contact" title="GET STARTED" variant="buttonPrimary" />
         <div className={`${styles.flexCenter} max-w-[470px] m-5`}>
           <Socials />
         </div>
