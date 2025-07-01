@@ -5,15 +5,17 @@ const Hero = () => {
   return (
     <section className="relative w-full overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0 opacity-[.2] pointer-events-none">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
           src="/binary_tunnel.png"
           alt="background"
           fill
           quality={100}
-          className="object-cover"
+          className="object-cover opacity-[.7]"
         />
       </div>
+        {/* Background dim overlay */}
+  <div className="absolute inset-0 bg-black opacity-[.7] z-0 rounded-[20px]" />
 
       {/* Phone Number Glass Card */}
       <div className="absolute top-5 left-1/2 transform -translate-x-1/2 z-3">
