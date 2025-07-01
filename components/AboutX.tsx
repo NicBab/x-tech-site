@@ -3,7 +3,7 @@ import { Button } from "@/components";
 
 const AboutX = () => {
   return (
-    <section className={`${layout.section} bg-primary relative p-[50px]`}>
+    <section className={`${layout.section} relative p-[50px]`}>
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -30,7 +30,11 @@ const AboutX = () => {
         </div>
         <div className="md:flex flex-row relative z-[50]">
           <Button href="/about" title="MORE ABOUT US" variant="buttonPrimary" />
-          <Button href="/contact" title="CONTACT US" variant="buttonSecondary" />
+          <Button
+            href="/contact"
+            title="CONTACT US"
+            variant="buttonSecondary"
+          />
         </div>
       </div>
     </section>
