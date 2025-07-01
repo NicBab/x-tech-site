@@ -1,5 +1,5 @@
-import { STATS } from "@/constants"
-import styles from "@/style"
+import { STATS } from "@/constants";
+import styles from "@/style";
 
 const Stats = () => {
   return (

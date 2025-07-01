@@ -13,13 +13,16 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-2 justify-between items-center navbar relative z-50">
-      <Image
-        src="/X_icon.png"
-        alt="icon"
-        width={100}
-        height={100}
-        className="w-[70px] h-[50px]"
-      />
+      <Link href="/">
+        <Image
+          src="/X_icon.png"
+          alt="icon"
+          width={100}
+          height={100}
+          className="w-[70px] h-[50px]"
+        />
+      </Link>
+
       <Socials className="" />
 
       {/* Desktop nav */}

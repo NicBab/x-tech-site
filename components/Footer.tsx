@@ -1,4 +1,4 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS_ICONS } from "@/constants";
+import { FOOTER_CONTACT_INFO, FOOTER_LINKS } from "@/constants";
 import { Socials } from "@/components/index";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,12 +9,7 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image
-              src="/X_icon.png"
-              alt="X_icon"
-              width={74}
-              height={29}
-            />
+            <Image src="/X_icon.png" alt="X_icon" width={74} height={29} />
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 text-white">
@@ -38,7 +33,9 @@ const Footer = () => {
                     key={link.label}
                     className="flex gap-4 md:flex-col lg:flex-row"
                   >
-                    <p className="whitespace-nowrap text-dimWhite">{link.label}:</p>
+                    <p className="whitespace-nowrap text-dimWhite">
+                      {link.label}:
+                    </p>
                     <p className="medium-14 whitespace-nowrap text-dimWhite">
                       {link.value}
                     </p>

@@ -5,7 +5,6 @@ const ServicesX = () => {
   return (
     <section id="ServicesX" className={`${layout.section} p-[25px]`}>
       <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
-        
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
           Services...

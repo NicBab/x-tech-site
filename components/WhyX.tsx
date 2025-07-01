@@ -18,7 +18,7 @@ const WhyX = () => {
           <br className="sm:block hidden" />
           Why Choose XTechnology?
         </h2>
-                <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div>
+        <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div>
         <div className={`max-w-[700px]`}>
           <div className={`${styles.paragraph}`}>
             At XTechnology, we place your satisfaction at the forefront our
@@ -29,7 +29,7 @@ const WhyX = () => {
             success is our ultimate goal!
           </div>
         </div>
-       <div className="md:flex flex-row relative z-[5]">
+        <div className="md:flex flex-row relative z-[5]">
           <Button href="/about" title="ABOUT US" variant="buttonPrimary" />
           <Button href="/services" title="SERVICES" variant="buttonSecondary" />
         </div>

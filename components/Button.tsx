@@ -1,25 +1,25 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import styles from '@/style';
+import Link from "next/link";
+import Image from "next/image";
+import styles from "@/style";
 
 type ButtonProps = {
-  type?: 'button' | 'submit';
+  type?: "button" | "submit";
   title: string;
   icon?: string;
-  variant?: 'buttonPrimary' | 'buttonSecondary';
+  variant?: "buttonPrimary" | "buttonSecondary";
   href?: string;
 };
 
 const Button = ({
-  type = 'button',
+  type = "button",
   title,
   icon,
-  variant = 'buttonPrimary',
+  variant = "buttonPrimary",
   href,
 }: ButtonProps) => {
-  const appliedStyles = styles[variant] || '';
+  const appliedStyles = styles[variant] || "";
 
   const content = (
     <div className={`flex items-center justify-center gap-3 ${appliedStyles}`}>
