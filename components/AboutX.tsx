@@ -17,16 +17,9 @@ const AboutX = () => {
       <div className={`${layout.sectionInfo}`}>
         <h2 className={`${styles.heading2}`}>About...</h2>
         <div className={`${styles.paragraph} max-w-[700px]`}>
-          At XTechnology we deliver integrated technology and design solutions,
-          specializing in automation efficiency and productivity to optimize
-          process control systems for peak performance. With decades of
-          experience across diverse industries, our dedicated team provides
-          comprehensive, reliable, and innovative services, from automation
-          integration to process design and system packaging. We're committed to
-          quality and strong customer relationships to enhance efficiency and
-          solve complex challenges. Our focus on safety, social responsibility,
-          and continuous improvement drives cost-effective solutions for all
-          projects.
+XTechnology is an automation and consulting team focused on smart, scalable control solutions. 
+We streamline process systems with modern design, seamless integration, and reliable 
+engineering—built for performance, safety, and growth.
         </div>
         <div className="md:flex flex-row relative z-[50]">
           <Button href="/about" title="MORE ABOUT US" variant="buttonPrimary" />

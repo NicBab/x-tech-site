@@ -24,22 +24,17 @@ export const SOCIALS_ICONS = [
 export const STATS = [
   {
     id: "stats-1",
-    title: "AUTOMATION",
+    title: "-AUTOMATION-SOLUTIONS-",
     value: "",
   },
   {
     id: "stats-2",
-    title: " CONTROLS",
+    title: "-CONTROL-SYSTEM-DESIGN-",
     value: "",
   },
   {
     id: "stats-3",
-    title: " SCADA",
-    value: "",
-  },
-  {
-    id: "stats-4",
-    title: "DESIGN",
+    title: "-SCADA-",
     value: "",
   },
 ];
@@ -47,17 +42,17 @@ export const STATS = [
 export const STATS2 = [
   {
     id: "stats-5",
-    title: "MANAGEMENT",
+    title: "-PROJECT MANAGEMENT-",
     value: "",
   },
   {
     id: "stats-6",
-    title: "CONSULTING",
+    title: "-CONSULTING-",
     value: "",
   },
   {
     id: "stats-7",
-    title: "COMMISSIONING",
+    title: "-COMMISSIONING & STARTUP-",
     value: "",
   },
 ];

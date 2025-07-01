@@ -3,7 +3,7 @@ import { Button } from "@/components";
 
 const WhyX = () => {
   return (
-    <section id="whyX" className={`${layout.section} bg-primary p-[25px]`}>
+    <section id="whyX" className={`${layout.section} p-[25px] m-5`}>
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -21,12 +21,9 @@ const WhyX = () => {
         <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div>
         <div className={`max-w-[700px]`}>
           <div className={`${styles.paragraph}`}>
-            At XTechnology, we place your satisfaction at the forefront our
-            efforts. We work hand-in-hand with you to gain a deep understanding
-            of specific needs, allowing us to provide customized solutions. Our
-            committed team is devoted to delivering top-notch services that
-            improve operations and optimize your return on investment. Your
-            success is our ultimate goal!
+            We combine practical engineering experience with a clear focus on
+            your goals. Our solutions are tailored to improve performance,
+            reliability, and efficiency where it counts.
           </div>
         </div>
         <div className="md:flex flex-row relative z-[5]">

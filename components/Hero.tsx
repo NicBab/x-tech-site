@@ -55,9 +55,9 @@ const Hero = () => {
             <br className="sm:block" />
             <div className="max-w-[400px] min-w-[250px] mt-5 z-2">
               <span className={`${styles.paragraph} text-dimWhite`}>
-                Where dedicated experience meets customer-centric solutions. We
-                focus on your needs to ensure our expertise delivers impactful,
-                tailored results for your business
+                At XTechnology, we work closely with you to understand your
+                needs and build smart, reliable automation solutions that move
+                your business forward.
               </span>
             </div>
 

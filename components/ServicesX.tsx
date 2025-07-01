@@ -3,7 +3,7 @@ import { Button } from "@/components";
 
 const ServicesX = () => {
   return (
-    <section id="ServicesX" className={`${layout.section} p-[25px]`}>
+    <section id="ServicesX" className={`${layout.section} p-[20px]`}>
       <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
@@ -11,12 +11,8 @@ const ServicesX = () => {
         </h2>
         <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-90 right-10 orange__gradient opacity-[.2]"></div>
         <div className={`${styles.paragraph} max-w-[700px]`}>
-          At XTechnology, we place your satisfaction at the forefront our
-          efforts. We work hand-in-hand with you to gain a deep understanding of
-          specific needs, allowing us to provide customized solutions. Our
-          committed team is devoted to delivering top-notch services that
-          improve operations and optimize your return on investment. Your
-          success is our ultimate goal!
+    At XTechnology, we prioritize your goals through close collaboration and tailored solutions. 
+    Our team is dedicated to boosting efficiency and ROI—your success is our mission.
         </div>
         <div className="md:flex flex-row relative z-[5]">
           <Button href="/" title="SERVICES" variant="buttonPrimary" />

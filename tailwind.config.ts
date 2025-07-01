@@ -44,7 +44,7 @@ module.exports = {
   'rounded-full',
 
   // === Responsive Screens ===
-  'xs:text-[48px]', 'xs:leading-[85px]', 'md:text-[12px]',
+  'xs:text-[40px]', 'xs:text-[48px]', 'xs:leading-[85px]', 'md:text-[12px]',
 
   // === Animation & Sidebar ===
   'sidebar', 'transform', 'hover:transform', 'scale-[1.01]',
@@ -69,6 +69,16 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+      },
+       keyframes: {
+        scrollX: {
+          '0%': { transform: 'translateX(0%)' },
+      '100%': { transform: 'translateX(-50%)' },
+        },
+      }, 
+
+       animation: {
+        scrollX: "scrollX 10s linear infinite",
       },
     },
     screens: {

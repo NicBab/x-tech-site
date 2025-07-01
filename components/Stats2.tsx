@@ -3,21 +3,21 @@ import styles from "@/style"
 
 const Stats = () => {
   return (
-    <section
-      className={`${styles.flexCenter} flex-row flex-wrap p-[50px]`}
-    >
-      {STATS2.map((stat) => (
-        <div
-          key={stat.id}
-          className={`flex-1 flex justify-center items-center flex-row m-3`}
-        >
-          <p
-            className={`${styles.flexCenter} orange-text-gradient font-poppins font-normal sm:text-[30px] text-[16px] tracking-wider xs:leading-[53px] leading-[43px] uppercase ml-3`}
+       <section className="w-full overflow-hidden bg-primary py-10 px-[50px]">
+      <div className="flex w-max animate-scrollX whitespace-nowrap gap-10">
+        {[...STATS2, ...STATS2].map((stat, index) => (
+          <div
+            key={`${stat.id}-${index}`}
+            className="flex-shrink-0 flex items-center justify-center"
           >
-            {stat.title}
-          </p>
-        </div>
-      ))}
+            <p
+              className={`${styles.flexCenter} orange-text-gradient font-poppins font-normal sm:text-[30px] text-[16px] tracking-wider xs:leading-[53px] leading-[43px] uppercase ml-3`}
+            >
+              {stat.title}
+            </p>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
