@@ -3,7 +3,7 @@ import { Button } from "@/components";
 
 const ServicesX = () => {
   return (
-    <section id="ServicesX" className={`${layout.section} p-[20px]`}>
+    <section id="ServicesX" className={`${layout.section} ${styles.margins} relative`}>
       <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />

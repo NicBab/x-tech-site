@@ -3,7 +3,7 @@ import { Button } from "@/components";
 
 const WhyX = () => {
   return (
-    <section id="whyX" className={`${layout.section} p-[25px] m-5`}>
+    <section id="whyX" className={`${layout.section} ${styles.margins} relative`}>
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -16,7 +16,7 @@ const WhyX = () => {
       <div className={`${layout.sectionInfo} mb-10`}>
         <h2 className={`${styles.heading2} ${styles.flexCenter}`}>
           <br className="sm:block hidden" />
-          Why Choose XTechnology?
+          Why Choose XTech?
         </h2>
         <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div>
         <div className={`max-w-[700px]`}>

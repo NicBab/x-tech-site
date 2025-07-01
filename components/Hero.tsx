@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="relative w-full overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
+      <div className="absolute inset-0 z-0 opacity-[.2] pointer-events-none">
         <Image
           src="/binary_tunnel.png"
           alt="background"

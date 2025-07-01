@@ -1,9 +1,9 @@
 import { STATS } from "@/constants";
-import styles from "@/style";
+import styles, { layout } from "@/style";
 
 const Stats = () => {
   return (
-    <section className="w-full overflow-hidden bg-primary py-10 px-[50px]">
+    <section className={`${styles.margins}`}>
       <div className="flex w-max animate-scrollX whitespace-nowrap gap-10">
         {[...STATS, ...STATS].map((stat, index) => (
           <div

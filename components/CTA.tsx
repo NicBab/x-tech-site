@@ -5,7 +5,7 @@ const CTA = () => {
   return (
    <section className={`${styles.marginY} relative w-full h-auto overflow-hidden bg-CTA-texture bg-cover bg-center bg-no-repeat`}>
   {/* Background dim overlay */}
-  <div className="absolute inset-0 bg-black opacity-60 z-0 rounded-[20px]" />
+  <div className="absolute inset-0 bg-black opacity-[.5] z-0 rounded-[20px]" />
 
   {/* Glass card container with existing layout styles */}
   <div className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} relative z-10`}>

@@ -24,12 +24,12 @@ export const SOCIALS_ICONS = [
 export const STATS = [
   {
     id: "stats-1",
-    title: "-AUTOMATION-SOLUTIONS-",
+    title: "-AUTOMATION SOLUTIONS-",
     value: "",
   },
   {
     id: "stats-2",
-    title: "-CONTROL-SYSTEM-DESIGN-",
+    title: "-CONTROL SYSTEM DESIGN-",
     value: "",
   },
   {

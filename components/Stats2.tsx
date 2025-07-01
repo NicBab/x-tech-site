@@ -3,7 +3,7 @@ import styles from "@/style"
 
 const Stats = () => {
   return (
-       <section className="w-full overflow-hidden bg-primary py-10 px-[50px]">
+       <section className="w-full overflow-hidden">
       <div className="flex w-max animate-scrollX whitespace-nowrap gap-10">
         {[...STATS2, ...STATS2].map((stat, index) => (
           <div
