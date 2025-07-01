@@ -15,8 +15,8 @@ const ServicesX = () => {
     Our team is dedicated to boosting efficiency and ROI—your success is our mission.
         </div>
         <div className="md:flex flex-row relative z-[5]">
-          <Button href="/" title="SERVICES" variant="buttonPrimary" />
-          <Button href="/" title="CONTACT" variant="buttonSecondary" />
+          <Button href="/services" title="SERVICES" variant="buttonPrimary" />
+          <Button href="/contact" title="CONTACT" variant="buttonSecondary" />
         </div>
       </div>
 

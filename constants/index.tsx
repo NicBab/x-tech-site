@@ -37,6 +37,11 @@ export const STATS = [
     title: "-SCADA-",
     value: "",
   },
+    {
+    id: "stats-4",
+    title: "-POWER GENERATION & ENGINE CONTROL-",
+    value: "",
+  },
 ];
 
 export const STATS2 = [
@@ -101,7 +106,7 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Learn More:",
-    links: ["About ", "Jobs"],
+    links: ["About", "Jobs"],
   },
   {
     title: "Our Community:",

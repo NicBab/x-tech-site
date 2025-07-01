@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Head from "next/head";
 import "./globals.css";
-import { Navbar, Footer } from "@/components/index";
+import { Navbar, CTA, Footer } from "@/components/index";
 import { Amatic_SC } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -39,6 +39,7 @@ export default function RootLayout({
         <main className={`${amatic.variable} relative overflow-hidden`}>
           {children}
         </main>
+        <CTA/>
         <div className={`${styles.paddingX} ${styles.flexCenter} bg-black`}>
           <div className={`${styles.boxWidth}`}>
             <Footer />

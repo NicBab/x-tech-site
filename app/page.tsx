@@ -17,7 +17,6 @@ export default function Home() {
       <Stats2 />
       <ServicesX />
       <WhyX />
-      <CTA />
     </>
   );
 }
