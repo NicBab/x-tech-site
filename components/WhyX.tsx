@@ -8,7 +8,7 @@ const WhyX = () => {
         <div className={`${styles.flexStart}`}>
           <img
             src="/frac_panel.png"
-            alt="frac"
+            alt="frac_panel"
             className="w-[300px] h-[240px] sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
