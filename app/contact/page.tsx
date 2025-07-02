@@ -12,12 +12,12 @@ const ContactPage = () => {
             alt="background logo"
             fill
             quality={100}
-            className="object-contain object-center opacity-50"
+            className="object-contain object-center opacity-40"
             priority
           />
         </div>
         {/* Black Overlay */}
-        <div className="absolute inset-0 bg-primary bg-opacity-50 z-1" />
+        <div className="absolute inset-0 bg-primary bg-opacity-80 z-1" />
         {/* Foreground Content */}
         <div className="relative z-2 flex flex-col items-center min-h-screen px-5 sm:px-10">
           {/* HEADER at Top */}
