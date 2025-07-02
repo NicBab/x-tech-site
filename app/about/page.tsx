@@ -8,13 +8,13 @@ const AboutPage = () => {
         <PhoneNumber />
         <div className={`relative z-1 flex ${styles.flexCenter}`}>
           <div className="xl:px-0 sm:px-16">
-            <div className="max-w-[700px] min-w-[250px] z-2 mt-20">
-              <h1 className={`${styles.heading2} ${styles.flexCenter}`}>
+            <div className="max-w-[700px] min-w-[250px] z-2">
+              <h1 className={`${styles.heading2} text-center mt-20`}>
+                About
                 <br className="sm:block hidden" />
-                About Us...
               </h1>
               <br className="sm:block" />
-              <div className="max-w-[700px] min-w-[250px] m-10 z-2">
+              <div className="max-w-[700px] min-w-[250px] mx-10 z-2">
                 <div className="flex flex-wrap-row justify-between items-center w-full">
                   <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-dimWhite ss:leading-[40px] leading-[40px]">
                     Our Mission...

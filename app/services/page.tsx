@@ -6,10 +6,10 @@ import Image from "next/image";
 const ServicesPage = () => {
   return (
     <>
-    <PhoneNumber />
-      <h1 className={`${styles.heading2} ${styles.flexCenter} mt-20`}>
+      <PhoneNumber />
+      <h1 className={`${styles.heading2} text-center mt-20`}>
+        Services
         <br className="sm:block hidden" />
-        Services...
       </h1>
       <section
         id="ServicesPage"
