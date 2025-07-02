@@ -35,7 +35,7 @@ const ContactPage = () => {
     <br />
     Suite B
     <br />
-    Lafayette, La. 70502
+    Lafayette, La. 70508
   </span>
 </div>
         </div>
