@@ -12,7 +12,8 @@ const WhyX = () => {
           <img
             src="/frac_panel.png"
             alt="frac_panel"
-            className="w-[300px] h-[240px] sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
+            width={300} height={240}
+            className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
       </div>

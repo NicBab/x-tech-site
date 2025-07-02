@@ -1,5 +1,6 @@
 import styles, { layout } from "@/style";
 import { Button, PhoneNumber } from "@/components";
+import Image from "next/image";
 
 const AboutPage = () => {
   return (
@@ -43,10 +44,12 @@ const AboutPage = () => {
       >
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
           <div className={`${styles.flexCenter}`}>
-            <img
+            <Image
               src="/fulllogo_transparent.png"
               alt="full logo transparent"
-              className="w-[300px] h-[240px] sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
+              width={300}
+              height={240}
+              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
             />
           </div>
         </div>

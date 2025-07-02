@@ -9,7 +9,8 @@ const AboutX = () => {
           <img
             src="/305_panel_3.png"
             alt="305_panel_3"
-            className="w-[220px] h-[280px] sm:w-[400px] sm:h-[550px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
+            width={220} height={280}
+            className="sm:w-[400px] sm:h-[550px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
       </div>

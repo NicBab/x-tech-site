@@ -33,8 +33,8 @@ const Hero = () => {
             <Image
               src="/X_grey_logo.png"
               alt="logo"
-              width={600}
-              height={600}
+              width={700}
+              height={700}
               className="relative z-[2]"
             />
             <div className="absolute z-[1] w-[40%] h-[60%] top-20 orange__gradient opacity-[.8]"></div>
