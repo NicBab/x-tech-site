@@ -52,7 +52,7 @@ const Hero = () => {
               </span>
             </div>
             <div className="md:flex flex-row relative z-[5]">
-              <Button href="/about" title="SERVICES" variant="buttonPrimary" />
+              <Button href="/services" title="SERVICES" variant="buttonPrimary" />
               <Button
                 href="/contact"
                 title="CONTACT US"
