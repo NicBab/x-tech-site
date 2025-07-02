@@ -1,13 +1,13 @@
 import styles, { layout } from "@/style";
-import { Button } from "@/components";
+import { Button, PhoneNumber } from "@/components";
 import { FEATURES } from "@/constants";
-import Link from "next/link";
 import Image from "next/image";
 
 const ServicesPage = () => {
   return (
     <>
-      <h1 className={`${styles.heading2} ${styles.flexCenter}`}>
+    <PhoneNumber />
+      <h1 className={`${styles.heading2} ${styles.flexCenter} mt-20`}>
         <br className="sm:block hidden" />
         Services...
       </h1>
@@ -16,7 +16,7 @@ const ServicesPage = () => {
         className={`${styles.margins} flex md:flex-row flex-col`}
       >
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
-         <div className={`${styles.flexCenter}`}>
+          <div className={`${styles.flexCenter}`}>
             <img
               src="/fulllogo_transparent.png"
               alt="frac_panel"
@@ -56,7 +56,7 @@ const ServicesPage = () => {
           className={`${styles.marginY} max-container relative w-full flex justify-center`}
         >
           <div className="z-20 flex w-full flex-col">
-            <ul className="grid gap-5 md:grid-cols-2 lg:gap-20 m-5">
+            <ul className="grid gap-5 md:grid-cols-2 lg:gap-20 m-10">
               {FEATURES.map((feature) => (
                 <FeatureItem
                   key={feature.title}
@@ -81,7 +81,7 @@ type FeatureItem = {
 
 const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
-    <li className="flex w-full flex-1 flex-col items-center p-5 border border-orange rounded-[10px]">
+    <li className="flex w-full flex-1 flex-col items-center p-5 bg-black-gradient rounded-[10px] shadow-2">
       <div className="rounded-full">
         <Image src={icon} alt="map" width={50} height={50} />
       </div>

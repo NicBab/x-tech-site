@@ -11,7 +11,6 @@ const Footer = () => {
           <Link href="/" className="mb-10">
             <Image src="/X_icon.png" alt="X_icon" width={74} height={29} />
           </Link>
-
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 text-white">
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title}>
@@ -24,7 +23,6 @@ const Footer = () => {
                 </ul>
               </FooterColumn>
             ))}
-
             <div className="flex flex-col gap-5 text-white">
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
@@ -43,7 +41,6 @@ const Footer = () => {
                 ))}
               </FooterColumn>
             </div>
-
             <div className="flex flex-col gap-5">
               <FooterColumn title="Find Us:">
                 <Socials />
@@ -51,7 +48,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
           2025 | XTechnology | All rights reserved

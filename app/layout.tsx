@@ -36,7 +36,7 @@ export default function RootLayout({
             </div>
           </div>
         </div>
-        <main className={`${amatic.variable} relative overflow-hidden`}>
+        <main className={`${amatic.variable} relative overflow-hidden bg-primary`}>
           {children}
         </main>
         <CTA/>

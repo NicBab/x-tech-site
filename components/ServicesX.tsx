@@ -3,7 +3,10 @@ import { Button } from "@/components";
 
 const ServicesX = () => {
   return (
-    <section id="ServicesX" className={`${layout.section} ${styles.margins} relative`}>
+    <section
+      id="ServicesX"
+      className={`${layout.section} ${styles.margins} relative`}
+    >
       <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
@@ -11,15 +14,15 @@ const ServicesX = () => {
         </h2>
         <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-90 right-10 orange__gradient opacity-[.2]"></div>
         <div className={`${styles.paragraph} max-w-[700px]`}>
-    At XTechnology, we prioritize your goals through close collaboration and tailored solutions. 
-    Our team is dedicated to boosting efficiency and ROI—your success is our mission.
+          At XTechnology, we prioritize your goals through close collaboration
+          and tailored solutions. Our team is dedicated to boosting efficiency
+          and ROI—your success is our mission.
         </div>
         <div className="md:flex flex-row relative z-[5]">
           <Button href="/services" title="SERVICES" variant="buttonPrimary" />
           <Button href="/contact" title="CONTACT" variant="buttonSecondary" />
         </div>
       </div>
-
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img

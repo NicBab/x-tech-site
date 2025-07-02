@@ -22,9 +22,7 @@ const Navbar = () => {
           className="w-[70px] h-[50px]"
         />
       </Link>
-
       <Socials className="" />
-
       {/* Desktop nav */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {NAV_LINKS.map((link, index) => (
@@ -40,7 +38,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
       {/* Mobile menu icon */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <Image
@@ -52,7 +49,6 @@ const Navbar = () => {
           onClick={() => setToggle((prev) => !prev)}
         />
       </div>
-
       {/* Mobile sidebar menu */}
       <div
         className={`${

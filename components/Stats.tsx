@@ -1,5 +1,5 @@
 import { STATS } from "@/constants";
-import styles, { layout } from "@/style";
+import styles from "@/style";
 
 const Stats = () => {
   return (

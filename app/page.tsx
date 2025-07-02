@@ -5,7 +5,6 @@ import {
   Stats2,
   ServicesX,
   WhyX,
-  CTA,
 } from "@/components/index";
 
 export default function Home() {

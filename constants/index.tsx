@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/about", key: "about us", label: "About" },
+  { href: "/about", key: "about", label: "About" },
   { href: "/services", key: "services", label: "Services" },
   { href: "/contact", key: "contact", label: "Contact" },
   { href: "/events", key: "events", label: "Events" },
@@ -37,7 +37,7 @@ export const STATS = [
     title: "-SCADA-",
     value: "",
   },
-    {
+  {
     id: "stats-4",
     title: "-POWER GENERATION & ENGINE CONTROL-",
     value: "",
@@ -72,7 +72,7 @@ export const STATS2 = [
 
 // FEATURES SECTION
 export const FEATURES = [
-    {
+  {
     title: "Automation Solutions",
     icon: "/X_icon.png",
     variant: "",
@@ -87,7 +87,7 @@ export const FEATURES = [
       "We specialize in control system design and implementation, providing complete turnkey solutions. Our team of experts will work with you to develop a system that meets your requirements and specifications, ensuring reliable, efficient, and cost-effective operation. Our systems are designed to be user-friendly, easy to maintain, and reliable in any environment.",
   },
   {
-    title: "Supervisory Controls And Data Aquisition",
+    title: "Supervisory Controls And Data Acquisition",
     icon: "/X_icon.png",
     variant: "",
     description:
@@ -97,23 +97,24 @@ export const FEATURES = [
     title: "Project Management",
     icon: "/X_icon.png",
     variant: "",
-    description:"At XTechnology, we leverage advanced tools and smart strategies to deliver efficient, on-time automation solutions. Our team streamlines workflows, manages resources effectively, and tailors each project to fit your infrastructure—ensuring smooth, cost-effective results.",
+    description:
+      "At XTechnology, we leverage advanced tools and smart strategies to deliver efficient, on-time automation solutions. Our team streamlines workflows, manages resources effectively, and tailors each project to fit your infrastructure—ensuring smooth, cost-effective results.",
   },
-    {
+  {
     title: "Consulting",
     icon: "/X_icon.png",
     variant: "",
     description:
       "Our Consulting service provides expert advice on the best solutions for your organization. Our experienced staff can help you identify the right technologies to optimize your operations and maximize your resources. We offer tailored strategies to ensure your automation project is successful and cost-effective.",
   },
-    {
+  {
     title: "Power Generation and Engine Control",
     icon: "/X_icon.png",
     variant: "",
     description:
       "We provide custom packages for power generation and engine control systems that can help you optimize your production. Our experienced team will work with you to design and implement a custom solution to ensure your operations remain efficient and reliable. Our solutions are designed to maximize efficiency while minimizing downtime and maintenance costs.",
   },
-      {
+  {
     title: "Commissioning and Startup",
     icon: "/X_icon.png",
     variant: "",
@@ -137,8 +138,9 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us:",
   links: [
-    { label: "Admin Officer", value: "(337) 326-5570" },
-    { label: "Email Officer", value: "admin@xtechnology-usa.com" },
+    { label: "Office", value: "(337) 326-5570" },
+    { label: "Email", value: "admin@xtechnology-usa.com" },
+    { label: "Address", value: "202 Magnate Dr. suite-B, Lafayette, La"}
   ],
 };
 

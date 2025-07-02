@@ -40,9 +40,9 @@ body {
 
 .bg-black-gradient {
   background: linear-gradient(144.39deg,
-      #ffffff -278.56%,
-      #6d6d6d -78.47%,
-      #11101d 91.61%);
+    #2a2a2a -278.56%,
+    #1a1a1a -78.47%,
+    #000000 91.61%);
 }
 
 .bg-black-gradient-2 {
@@ -133,12 +133,11 @@ body {
     #fffffff1 -200.56%,
     #6d6d6d3c -78.47%,
     #11101d7d 91.61%);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 2px solid #fb923c; /* <-- orange from Tailwind config */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid #fb923c; /* <-- orange from Tailwind config */
   border-radius: 10px;
   pointer-events: auto;
-  
 }
 
 .glass-card-2 {
@@ -147,7 +146,7 @@ body {
     #6d6d6d3c -78.47%,
     #11101d7d 91.61%);
   backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
   border: 1px solid #fb923c; /* <-- orange from Tailwind config */
   border-radius: 50px;
 }

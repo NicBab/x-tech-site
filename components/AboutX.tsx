@@ -17,9 +17,10 @@ const AboutX = () => {
       <div className={`${layout.sectionInfo}`}>
         <h2 className={`${styles.heading2}`}>About...</h2>
         <div className={`${styles.paragraph} max-w-[700px]`}>
-XTechnology is an automation and consulting team focused on smart, scalable control solutions. 
-We streamline process systems with modern design, seamless integration, and reliable 
-engineering—built for performance, safety, and growth.
+          XTechnology is an automation and consulting team focused on smart,
+          scalable control solutions. We streamline process systems with modern
+          design, seamless integration, and reliable engineering—built for
+          performance, safety, and growth.
         </div>
         <div className="md:flex flex-row relative z-[50]">
           <Button href="/about" title="MORE ABOUT US" variant="buttonPrimary" />
