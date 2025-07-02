@@ -27,6 +27,17 @@ const ContactPage = () => {
             <br className="sm:block hidden" />
           </h1>
           <Form />
+<div className="flex items-center justify-center mt-10 max-w-xs orange-text-gradient font-poppins font-semibold text-[18px] ss:text-[30px] max-h-[300px]">
+  <span className="block text-center leading-snug">
+    X Technology
+    <br />
+    202 Magnate Dr.
+    <br />
+    Suite B
+    <br />
+    Lafayette, La. 70502
+  </span>
+</div>
         </div>
       </section>
     </>
