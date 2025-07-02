@@ -27,11 +27,9 @@ const Form = () => {
             name="user_Email"
           />
           <textarea
-          className="bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-xl text-white mb-10"
-            rows="5"
+            className="bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-xl text-white mb-10"
             placeholder="Message"
             name="message"
-           
           />
         </form>
         <div className="md:flex relative flex justify-center z-[5]">
