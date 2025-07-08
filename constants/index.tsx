@@ -12,13 +12,13 @@ export const SOCIALS_ICONS = [
   {
     title: "linkedin",
     icon: "/linkedin.svg",
-    href: "",
+    href: "https://www.linkedin.com/company/xtechnology-and-consulting-llc/",
   },
-  {
-    title: "facebook",
-    icon: "/facebook.svg",
-    href: "",
-  },
+  // {
+  //   title: "facebook",
+  //   icon: "/facebook.svg",
+  //   href: "",
+  // },
 ];
 
 export const STATS = [
