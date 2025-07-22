@@ -34,10 +34,10 @@ const ServicesX = () => {
         </div>
         <div className={`${styles.flexCenter} `}>
           <img
-            src="/305_panel_1.png"
+            src="/vfd_skid.JPG"
             alt="305_panel_1"
-            width={200} height={200}
-            className="sm:w-[500px] sm:h-[400px] relative rounded-md z-[2] shadow-3"
+            width={300} height={300}
+            className="sm:w-[600px] sm:h-[400px] relative rounded-md z-[2] shadow-3"
           />
         </div>
       </div>

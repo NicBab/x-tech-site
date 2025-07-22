@@ -7,13 +7,13 @@ const WhyX = () => {
       id="whyX"
       className={`${layout.section} ${styles.margins} relative`}
     >
-      <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
+      <div className={`${layout.sectionInfo} z-[4] mt-5`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src="/frac_panel.png"
-            alt="frac_panel"
-            width={300} height={240}
-            className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
+            src="/panel_door.JPG"
+            alt="vfd_panel"
+            width={500} height={480}
+            className="sm:w-[800px] sm:h-[580px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
       </div>
