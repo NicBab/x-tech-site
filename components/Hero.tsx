@@ -7,11 +7,11 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
-          src="/binary_tunnel.png"
-          alt="binary tunnel"
+          src="/vfd_skid.JPG"
+          alt="panel-door"
           fill
           quality={100}
-          className="object-cover opacity-[.7]"
+          className="object-cover opacity-[.4]"
         />
       </div>
       {/* Background dim overlay */}

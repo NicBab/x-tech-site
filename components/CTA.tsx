@@ -7,7 +7,7 @@ const CTA = () => {
       className={`${styles.marginY} relative w-full h-auto overflow-hidden bg-CTA-texture bg-cover bg-center bg-no-repeat`}
     >
       {/* Background dim overlay */}
-      <div className="absolute inset-0 bg-black opacity-[.7] z-0" />
+      <div className="absolute inset-0 bg-black opacity-[.8] z-0" />
 
       {/* Glass card container with existing layout styles */}
       <div

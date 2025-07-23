@@ -133,7 +133,7 @@ body {
     #fffffff1 -200.56%,
     #6d6d6d3c -78.47%,
     #11101d7d 91.61%);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(3px);
   border: 1px solid #fb923c; /* <-- orange from Tailwind config */
   border-radius: 10px;
