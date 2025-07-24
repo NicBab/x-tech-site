@@ -6,7 +6,7 @@ const styles = {
 
     heading2: "font-poppins flex justify-center font-semibold text-[40px] xs:text-[40px] text-black xs:leading-[65px] leading-[65px] w-full",
     ctaHeader: "p-5 font-poppins flex justify-center font-semibold text-[40px] xs:text-[40px] text-white xs:leading-[85px] leading-[85px] w-full",
-    paragraph: "p-5 font-poppins text-[14px] text-black md:text-[16px] leading-[35px] indent-5",
+    paragraph: "p-5 font-poppins text-[20px] text-black md:text-[18px] leading-[35px] indent-5",
 
     cardHeading: "font-Amatic_SC flex justify-center font-semibold text-[80px] text-black leading-[40px] w-full mt-3",
     cardParagraph: "m-5 font-poppins font-normal text-black text-[14px] leading-[25px] indent-5",

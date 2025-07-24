@@ -1,21 +1,15 @@
 import Image from "next/image";
 import styles from "@/style";
-import { Button, PhoneNumber } from "@/components";
+import { Button, Carousel, PhoneNumber } from "@/components";
 const Hero = () => {
   return (
     <section className="relative w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <Image
-          src="/vfd_skid.JPG"
-          alt="panel-door"
-          fill
-          quality={100}
-          className="object-cover opacity-[.8]"
-        />
+        <Carousel/>
       </div>
       {/* Background dim overlay */}
-      <div className="absolute inset-0 bg-black opacity-[.8] z-0" />
+      <div className="absolute inset-0 bg-black opacity-[.7] z-0" />
    
       {/* Foreground Content */}
       <div
@@ -45,8 +39,7 @@ const Hero = () => {
             <br className="sm:block" />
             <div className="max-w-[400px] min-w-[250px] mt-5 z-2">
               <span className={`${styles.paragraph} text-white`}>
-                At XTechnology, we work closely with you to understand your
-                needs and build smart, reliable automation solutions that move
+               Smart, reliable automation solutions that move
                 your business forward.
               </span>
             </div>

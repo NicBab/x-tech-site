@@ -9,7 +9,6 @@ const Footer = () => {
         <PhoneNumber/>
       <div className="relative z-2 flex flex-col items-center sm:px-10">
         <div className="flex items-center justify-center m-2 max-w-xs text-white font-poppins font-semibold text-[18px] ss:text-[30px] max-h-[300px]">
-        
           <span className="block text-center leading-snug">
             X Technology
             <br />

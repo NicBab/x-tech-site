@@ -16,7 +16,6 @@ const ContactPage = () => {
             priority
           />
         </div>
-  
         <div className="relative z-2 flex flex-col items-center sm:px-10">
                     <div className="max-w-[700px] min-w-[250px] z-2">
             <h1 className={`${styles.heading2} text-center `}>

@@ -9,6 +9,9 @@ export { default as WhyX } from "./WhyX";
 export { default as CTA } from "./CTA";
 export { default as Footer } from "./Footer";
 
+//CAROUSEL
+export { default as Carousel } from "./Carousel"
+
 export { default as PhoneNumber } from "./PhoneNumber";
 //Form
 export { default as Form } from "./Form";
