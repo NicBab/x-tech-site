@@ -30,15 +30,15 @@ const ServicesPage = () => {
           <div className="max-w-[700px] min-w-[250px] m-10 z-2">
             <div className="flex flex-wrap-row justify-between items-center w-full">
               <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
-                Our Services...
+                Customized
+              solutions....
                 <br className="sm:block " />
               </h2>
             </div>
             <span className={`${styles.paragraph} text-black`}>
-              At XTechnology, we place your satisfaction at the forefront our
+              We place your satisfaction at the forefront our
               efforts. We work hand-in-hand with you to gain a deep
-              understanding of specific needs, allowing us to provide customized
-              solutions.
+              understanding of specific needs of your business.
             </span>
           </div>
           <div className="md:flex flex-row relative z-[5]">

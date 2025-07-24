@@ -1,22 +1,22 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 
-const ServicesX = () => {
+const Section2 = () => {
   return (
     <section
-      id="ServicesX"
+      id="Section2"
       className={`${layout.section} ${styles.margins} relative`}
     >
       <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
-          Services...
+          Your success is our mission.
         </h2>
         <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-90 right-10 orange__gradient opacity-[.2]"></div>
         <div className={`${styles.paragraph} max-w-[700px]`}>
-          At XTechnology, we prioritize your goals through close collaboration
+          We prioritize your goals through close collaboration
           and tailored solutions. Our team is dedicated to boosting efficiency
-          and ROI—your success is our mission.
+          and ROI—
         </div>
         <div className="md:flex flex-row relative z-[5]">
           <Button href="/services" title="SERVICES" variant="buttonPrimary" />
@@ -45,4 +45,4 @@ const ServicesX = () => {
   );
 };
 
-export default ServicesX;
+export default Section2;

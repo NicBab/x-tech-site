@@ -1,12 +1,10 @@
 import {
   Hero,
-  Stats,
-  AboutX,
-  Stats2,
-  ServicesX,
-  WhyX,
+  Section1,
+  Section2,
+  Section3,
   CTA,
-  Form
+  ContactForm
 } from "@/components/index";
 
 import Contact from "@/app/contact/page"
@@ -15,13 +13,11 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Stats />
-      <AboutX />
-      <Stats2 />
-      <ServicesX />
-      <WhyX />
+      <Section1 />
+      <Section2 />
+      <Section3/>
       <CTA/>
-      <Form/>
+      <ContactForm/>
     </>
   );
 }

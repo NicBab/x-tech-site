@@ -1,7 +1,7 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 
-const Form = () => {
+const ContactForm = () => {
   return (
     <section className="flex items-center justify-center w-full bg-transparent my-20">
       <div
@@ -14,25 +14,25 @@ const Form = () => {
         <div className={`flex-col z-[1]`}>
           <form className={`${styles.flexStart} flex-col w-full input`}>
             <input
-              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5 resize-none focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5"
               type="text"
               placeholder="Name"
               name="user_name"
             />
             <input
-              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5 resize-none focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5"
               type="text"
               placeholder="Subject"
               name="user_subject"
             />
             <input
-              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5 resize-none focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5"
               type="text"
               placeholder="Email"
               name="user_Email"
             />
             <textarea
-              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5 resize-none focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="bg-gray-100 text-black p-6 rounded-xl border border-gray-300 shadow-lg mb-5"
               placeholder="Message"
               name="message"
             />
@@ -46,4 +46,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default ContactForm;

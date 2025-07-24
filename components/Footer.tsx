@@ -9,7 +9,7 @@ const Footer = () => {
         <PhoneNumber/>
       <div className="relative z-2 flex flex-col items-center sm:px-10">
         <div className="flex items-center justify-center m-2 max-w-xs text-white font-poppins font-semibold text-[18px] ss:text-[30px] max-h-[300px]">
-          <span className="block text-center leading-snug">
+          <span className="block text-center leading-snug mb-5">
             X Technology
             <br />
             202 Magnate Dr.
@@ -20,7 +20,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="border bg-gray-20 mb-10" />
+      <div className="border bg-gray-20 mb-5" />
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">

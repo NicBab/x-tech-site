@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "@/style";
-import { Form, PhoneNumber } from "@/components";
+import { ContactForm } from "@/components";
 const ContactPage = () => {
   return (
     <>
@@ -31,7 +31,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-         <Form />
+         <ContactForm />
       </section>
     </>
   );
