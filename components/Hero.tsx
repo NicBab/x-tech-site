@@ -11,13 +11,12 @@ const Hero = () => {
           alt="panel-door"
           fill
           quality={100}
-          className="object-cover opacity-[.4]"
+          className="object-cover opacity-[.8]"
         />
       </div>
       {/* Background dim overlay */}
-      <div className="absolute inset-0 bg-black opacity-[.7] z-0 rounded-[20px]" />
-      {/*Phone Number*/}
-      <PhoneNumber />
+      <div className="absolute inset-0 bg-black opacity-[.8] z-0" />
+   
       {/* Foreground Content */}
       <div
         className={`relative z-1 flex ${styles.paddingY} ${styles.flexCenter}`}
@@ -33,19 +32,19 @@ const Hero = () => {
             <Image
               src="/X_grey_logo.png"
               alt="logo"
-              width={700}
-              height={700}
+              width={800}
+              height={800}
               className="relative z-[2]"
             />
             <div className="absolute z-[1] w-[40%] h-[60%] top-20 orange__gradient opacity-[.8]"></div>
           </div>
-          <div className="max-w-[400px] min-w-[250px] m-5 z-2">
-            <span className="ss:text-[35px] text-[20px] orange-text-gradient">
+          <div className="max-w-[500px] min-w-[250px] m-5 z-2">
+            <span className="ss:text-[50px] text-[40px] orange-text-gradient">
               Ready to Optimize Your Control Systems?
             </span>
             <br className="sm:block" />
             <div className="max-w-[400px] min-w-[250px] mt-5 z-2">
-              <span className={`${styles.paragraph} text-dimWhite`}>
+              <span className={`${styles.paragraph} text-white`}>
                 At XTechnology, we work closely with you to understand your
                 needs and build smart, reliable automation solutions that move
                 your business forward.

@@ -128,6 +128,20 @@ body {
   filter: blur(750px);
 }
 
+.form-card {
+  background: linear-gradient(
+    145deg,
+    rgba(253, 251, 249, 0.65) 0%,
+    rgba(255, 251, 249, 0.55) 50%,
+    rgba(253, 251, 249, 0.65) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: -2px 5px 8px 2px rgba(49, 49, 49, 0.3);
+  pointer-events: auto;
+}
+
 .glass-card {
   background: linear-gradient(144.39deg,
     #fffffff1 -200.56%,
@@ -135,7 +149,7 @@ body {
     #11101d7d 91.61%);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(3px);
-  border: 1px solid #fb923c; /* <-- orange from Tailwind config */
+  /*border: 1px solid #fb923c; /* <-- orange from Tailwind config */
   border-radius: 10px;
   pointer-events: auto;
 }

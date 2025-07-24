@@ -7,17 +7,17 @@ const CTA = () => {
       className={`${styles.marginY} relative w-full h-auto overflow-hidden bg-CTA-texture bg-cover bg-center bg-no-repeat`}
     >
       {/* Background dim overlay */}
-      <div className="absolute inset-0 bg-black opacity-[.8] z-0" />
+      <div className="absolute inset-0 bg-black opacity-[.5] z-0" />
 
       {/* Glass card container with existing layout styles */}
       <div
         className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} relative z-1`}
       >
-        <div className="glass-card border-orange border w-full flex flex-col sm:flex-row justify-between items-center p-8 min-w-[200px]">
+        <div className="w-full flex flex-col sm:flex-row justify-between items-center p-8 min-w-[200px]">
           {/* Heading */}
           <div className="flex-1 flex flex-col items-start sm:items-start mb-6 sm:mb-0">
-            <h2 className={`${styles.heading2} text-[40px]`}>
-              Contact us for all your Automation needs!
+            <h2 className={`${styles.ctaHeader} text-[40px]`}>
+             Take Control of Your Process Today!
             </h2>
           </div>
           {/* Button & Socials */}

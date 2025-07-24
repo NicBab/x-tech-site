@@ -5,7 +5,11 @@ import {
   Stats2,
   ServicesX,
   WhyX,
+  CTA,
+  Form
 } from "@/components/index";
+
+import Contact from "@/app/contact/page"
 
 export default function Home() {
   return (
@@ -16,6 +20,8 @@ export default function Home() {
       <Stats2 />
       <ServicesX />
       <WhyX />
+      <CTA/>
+      <Form/>
     </>
   );
 }

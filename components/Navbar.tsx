@@ -12,6 +12,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
+    
     <nav className="w-full flex py-2 justify-between items-center navbar relative z-50">
       <Link href="/">
         <Image

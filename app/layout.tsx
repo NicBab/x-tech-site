@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Head from "next/head";
 import "./globals.css";
-import { Navbar, CTA, Footer } from "@/components/index";
+import { Navbar, Footer, PhoneNumber } from "@/components/index";
 import { Amatic_SC } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
 import styles from "@/style";
 
 export const metadata: Metadata = {
@@ -28,18 +27,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body>
+     
         <div className="bg-black w-full">
+          <PhoneNumber />
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth} z-[10]`}>
               <Navbar />
             </div>
           </div>
         </div>
-        <main className={`${amatic.variable} relative overflow-hidden bg-primary`}>
+        <main className={`${amatic.variable} relative overflow-hidden bg-white`}>
           {children}
         </main>
-        <CTA/>
+       
         <div className={`${styles.paddingX} ${styles.flexCenter} bg-black`}>
           <div className={`${styles.boxWidth}`}>
             <Footer />

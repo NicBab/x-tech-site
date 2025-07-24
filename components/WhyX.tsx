@@ -10,9 +10,9 @@ const WhyX = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src="/panel_door.JPG"
+            src="/vfd_skid.JPG"
             alt="vfd_panel"
-            width={500} height={480}
+            width={480} height={480}
             className="sm:w-[800px] sm:h-[580px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
