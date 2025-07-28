@@ -38,23 +38,23 @@ export const INFO = [
     id: "info-2",
     src: "/panel_door.JPG",
     alt: "panel_door",
-    title: "Industrial",
+    title: "Industrial & Business",
     desc: "Providing services to the Industrial industry",
   },
   {
     id: "info-3",
     src: "/vfd_glands.JPG",
     alt: "vfd_glands",
-    title: "Utilities",
+    title: "Utilities & Water",
     desc: "Providing services to the Utilities industries",
   },
-    {
-    id: "info-4",
-    src: "/305_panel_1.png",
-    alt: "305_panel",
-    title: "Water",
-    desc: "Providing services to the Water industries",
-  }
+  //   {
+  //   id: "info-4",
+  //   src: "/305_panel_1.png",
+  //   alt: "305_panel",
+  //   title: "Home & Pool",
+  //   desc: "Providing services to the Water industries",
+  // }
 ];
 
 export const SERVICES = [];
