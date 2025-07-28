@@ -1,14 +1,16 @@
 // components/ActionAreaCard.tsx
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import CardActionArea from '@mui/material/CardActionArea';
-import { Box } from '@mui/material';
-import { INFO } from '@/constants/photos'; // Your array of card data
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Typography,
+  CardActionArea,
+  Box,
+} from '@mui/material';
+import { INFO } from '@/constants/photos';
 
-export default function InfoCard () {
+export default function InfoCard() {
   return (
     <Box
       sx={{
@@ -24,19 +26,40 @@ export default function InfoCard () {
       }}
     >
       {INFO.map((photo) => (
-        <Card key={photo.id} sx={{ maxWidth: 200, width: '100%' }}>
-          <CardActionArea>
+        <Card
+          key={photo.id}
+          sx={{
+            maxWidth: 200,
+            width: '100%',
+            height: 320, // Increased height here
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+          }}
+        >
+          <CardActionArea sx={{ height: '100%' }}>
             <CardMedia
               component="img"
               height="200"
               image={photo.src}
               alt={photo.alt}
             />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className="text-center">
+            <CardContent sx={{ px: 2 }}>
+              <Typography
+                gutterBottom
+                variant="h6"
+                component="div"
+                align="center"
+              >
                 {photo.title}
               </Typography>
-              <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+              <Typography
+                variant="body2"
+                sx={{
+                  color: 'text.secondary',
+                  textAlign: 'center',
+                }}
+              >
                 {photo.desc}
               </Typography>
             </CardContent>

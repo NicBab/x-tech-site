@@ -14,7 +14,7 @@ import "swiper/css";
 
 export default function StatCard() {
   return (
-    <Box sx={{ width: "100%", mt: 6, px: 2 }}>
+    <Box className="bg-black w-full py-10 px-4" sx={{ mt: 6 }}>
       <Swiper
         spaceBetween={16}
         slidesPerView={"auto"}
@@ -24,22 +24,28 @@ export default function StatCard() {
         {FEATURES.map((feature) => (
           <SwiperSlide
             key={feature.id}
-            style={{ width: 240 }} // Fixed width for uniformity
+            style={{ width: 240 }}
           >
             <Card
               sx={{
                 width: "100%",
-                height: 260, // Fixed height
+                height: 260,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
+                backgroundColor: "#1a1a1a", // dark gray / near-black
               }}
-              elevation={3}
+              elevation={4}
             >
               <CardActionArea sx={{ height: "100%" }}>
                 {/* Title Section */}
-                <Box sx={{ px: 2, pt: 2, text: "orange-text-gradient"}}>
-                  <Typography variant="h6" component="div" align="center">
+                <Box sx={{ px: 2, pt: 2 }}>
+                  <Typography
+                    variant="h6"
+                    component="div"
+                    align="center"
+                    className="orange-text-gradient"
+                  >
                     {feature.title}
                   </Typography>
                 </Box>
@@ -49,7 +55,7 @@ export default function StatCard() {
                   <Typography
                     variant="body2"
                     sx={{
-                      color: "text.secondary",
+                      color: "rgba(255, 255, 255, 0.7)",
                       textAlign: "center",
                       mt: 1,
                     }}

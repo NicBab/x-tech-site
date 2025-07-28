@@ -63,7 +63,7 @@ const ServicesPage = () => {
                   key={feature.title}
                   title={feature.title}
                   icon={feature.icon}
-                  description={feature.description}
+                  description={feature.desc}
                 />
               ))}
             </ul>

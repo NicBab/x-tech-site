@@ -5,7 +5,7 @@ import StatCard from "./StatCard";
 const Section2 = () => {
   return (
     <section id="Section2" className={`${styles.margins} relative`}>
-      <div className={`${layout.sectionInfo} z-[4] sm:mb-20`}>
+      <div className={`${layout.sectionInfo} z-[4] sm:mb-10`}>
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
           Performance, Reliability, Efficiency
@@ -15,13 +15,15 @@ const Section2 = () => {
           We combine practical engineering experience with a clear focus on your
           goals. Our solutions are tailored to improve where it counts.
         </div>
-        <StatCard />
-        <div className="md:flex flex-row relative mt-5 z-[5]">
+        
+        {/* <div className="md:flex flex-row relative mt-5 z-[5]">
           <Button href="/services" title="SERVICES" variant="buttonPrimary" />
           <Button href="/contact" title="CONTACT" variant="buttonSecondary" />
-        </div>
+        </div> */}
       </div>
-      <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}></div>
+      <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
+        <StatCard />
+      </div>
     </section>
   );
 };
