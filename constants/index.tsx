@@ -24,23 +24,31 @@ export const SOCIALS_ICONS = [
 export const STATS = [
   {
     id: "stats-1",
+    src: "",
+    alt: "",
     title: "-AUTOMATION SOLUTIONS-",
-    value: "",
+    desc: "",
   },
   {
     id: "stats-2",
+    src: "",
+    alt: "",
     title: "-CONTROL SYSTEM DESIGN-",
-    value: "",
+    desc: "",
   },
   {
     id: "stats-3",
+    src: "",
+    alt: "",
     title: "-SCADA-",
-    value: "",
+    desc: "",
   },
   {
     id: "stats-4",
+    src: "",
+    alt: "",
     title: "-POWER GENERATION & ENGINE CONTROL-",
-    value: "",
+    desc: "",
   },
 ];
 
@@ -73,53 +81,67 @@ export const STATS2 = [
 // FEATURES SECTION
 export const FEATURES = [
   {
+    id: "stat-1",
+    src: "",
+    alt: "",
     title: "Automation Solutions",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "XTechnology offers automation solutions that increase the efficiency and productivity of your operations. Our automation systems are designed to streamline your processes and reduce manual labor. We provide customized solutions that integrate with your existing system and improve your overall workflow.",
+    desc: "We provide customized solutions that integrate with your existing system and improve your overall workflow.",
   },
   {
+    id: "stat-2",
+    src: "",
+    alt: "",
     title: "Control System Design and Implementation",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "We specialize in control system design and implementation, providing complete turnkey solutions. Our team of experts will work with you to develop a system that meets your requirements and specifications, ensuring reliable, efficient, and cost-effective operation. Our systems are designed to be user-friendly, easy to maintain, and reliable in any environment.",
+    desc: "Our systems are designed to be user-friendly, easy to maintain, and reliable in any environment.",
   },
   {
+    id: "stat-3",
+    src: "",
+    alt: "",
     title: "Supervisory Controls And Data Acquisition",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "SCADA is an advanced technology that enables remote monitoring and control of industrial processes. It provides real-time data acquisition, advanced analytics, and automated control of processes, allowing businesses to increase efficiency and productivity. With SCADA, businesses can monitor and manage their operations from anywhere in the world.",
+    desc: "Businesses can monitor and manage their operations from anywhere in the world.",
   },
   {
+    id: "stat-4",
+    src: "",
+    alt: "",
     title: "Project Management",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "At XTechnology, we leverage advanced tools and smart strategies to deliver efficient, on-time automation solutions. Our team streamlines workflows, manages resources effectively, and tailors each project to fit your infrastructure—ensuring smooth, cost-effective results.",
+    desc: "Our team streamlines workflows, manages resources effectively, and tailors each project to fit your infrastructure.",
   },
   {
+    id: "stat-5",
+    src: "",
+    alt: "",
     title: "Consulting",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "Our Consulting service provides expert advice on the best solutions for your organization. Our experienced staff can help you identify the right technologies to optimize your operations and maximize your resources. We offer tailored strategies to ensure your automation project is successful and cost-effective.",
+    desc: "Our experienced staff can help you identify the right technologies to optimize your operations and maximize your resources.",
   },
   {
+    id: "stat-6",
+    src: "",
+    alt: "",
     title: "Power Generation and Engine Control",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "We provide custom packages for power generation and engine control systems that can help you optimize your production. Our experienced team will work with you to design and implement a custom solution to ensure your operations remain efficient and reliable. Our solutions are designed to maximize efficiency while minimizing downtime and maintenance costs.",
+    desc: "Our team will work with you to design and implement a custom solution to ensure your operations remain efficient and reliable.",
   },
   {
+    id: "stat-7",
+    src: "",
+    alt: "",
     title: "Commissioning and Startup",
     icon: "/X_icon.png",
     variant: "",
-    description:
-      "Our Commissioning and Startup service ensures that all control systems are correctly installed and are running as expected. Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency. We guarantee that your control system will be ready to use after our Commissioning and Startup service.",
+    desc: "Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
   },
 ];
 
@@ -140,7 +162,7 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: "Office", value: "(337) 326-5570" },
     { label: "Email", value: "admin@xtechnology-usa.com" },
-    { label: "Address", value: "202 Magnate Dr. suite-B, Lafayette, La"}
+    { label: "Address", value: "202 Magnate Dr. suite-B, Lafayette, La" },
   ],
 };
 
