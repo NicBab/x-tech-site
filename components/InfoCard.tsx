@@ -1,4 +1,3 @@
-// components/ActionAreaCard.tsx
 import * as React from 'react';
 import {
   Card,
@@ -15,11 +14,10 @@ export default function InfoCard() {
     <Box
       sx={{
         display: 'flex',
-        flexDirection: { xs: 'row', md: 'row' },
         flexWrap: 'wrap',
         justifyContent: 'center',
         alignItems: 'stretch',
-        gap: 3,
+        gap: 4,
         width: '100%',
         mt: 6,
         px: 2,
@@ -29,32 +27,57 @@ export default function InfoCard() {
         <Card
           key={photo.id}
           sx={{
-            maxWidth: 200,
+            maxWidth: 300,
             width: '100%',
-            height: 320, // Increased height here
+            height: 420,
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'space-between',
+            justifyContent: 'flex-start',
+            overflow: 'hidden',
+            p: 0, // remove any card-level padding
           }}
+          elevation={4}
         >
-          <CardActionArea sx={{ height: '100%' }}>
+          <CardActionArea
+            sx={{
+              height: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'stretch',
+              p: 0,
+              m: 0,
+            }}
+          >
             <CardMedia
               component="img"
-              height="200"
               image={photo.src}
               alt={photo.alt}
+              height="220"
+              sx={{
+                display: 'block',
+                m: 0,
+                p: 0,
+                borderRadius: 0,
+              }}
             />
-            <CardContent sx={{ px: 2 }}>
+
+            <CardContent
+              sx={{
+                flexGrow: 1,
+                px: 2,
+                pt: 2,
+              }}
+            >
               <Typography
-                gutterBottom
-                variant="h6"
+                variant="h5"
                 component="div"
                 align="center"
+                sx={{ mb: 1 }}
               >
                 {photo.title}
               </Typography>
               <Typography
-                variant="body2"
+                variant="body1"
                 sx={{
                   color: 'text.secondary',
                   textAlign: 'center',

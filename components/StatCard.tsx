@@ -14,7 +14,7 @@ import "swiper/css";
 
 export default function StatCard() {
   return (
-    <Box className="bg-black w-full py-10 px-4" sx={{ mt: 6 }}>
+    <Box className="bg-black w-full py-10 px-6" sx={{ mt: 6 }}>
       <Swiper
         spaceBetween={16}
         slidesPerView={"auto"}
