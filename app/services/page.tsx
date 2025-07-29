@@ -1,6 +1,6 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
-import { FEATURES } from "@/constants";
+import { Sec2CardInfo } from "@/constants/index";
 import Image from "next/image";
 
 const ServicesPage = () => {
@@ -26,7 +26,6 @@ const ServicesPage = () => {
           </div>
         </div>
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
-          {/* <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div> */}
           <div className="max-w-[700px] min-w-[250px] m-10 z-2">
             <div className="flex flex-wrap-row justify-between items-center w-full">
               <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
@@ -58,12 +57,12 @@ const ServicesPage = () => {
         >
           <div className="z-20 flex w-full flex-col">
             <ul className="grid gap-5 md:grid-cols-2 lg:gap-20 m-10">
-              {FEATURES.map((feature) => (
+              {Sec2CardInfo.map((info) => (
                 <FeatureItem
-                  key={feature.title}
-                  title={feature.title}
-                  icon={feature.icon}
-                  description={feature.desc}
+                  key={info.title}
+                  title={info.title}
+                  icon={info.icon}
+                  description={info.desc}
                 />
               ))}
             </ul>

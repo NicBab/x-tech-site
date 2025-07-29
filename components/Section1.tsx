@@ -7,7 +7,7 @@ const Section1 = () => {
     <section className={`${styles.margins} relative`}>
       <h2 className={`${styles.heading2} my-10`}>Complete Control Solutions...</h2>
       <h3 className={`${styles.heading2} orange-text-gradient`}>
-        For any Industry
+        For Any Industry
       </h3>
       <Sec1Card />
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}></div>
