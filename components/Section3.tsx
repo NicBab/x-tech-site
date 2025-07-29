@@ -8,16 +8,14 @@ const Section3 = () => {
       id="Section3"
       className={`${layout.section} ${styles.margins} relative`}
     >
-      <div className={`${layout.sectionInfo} z-[4] mt-5`}>
+      <div className={`${layout.sectionInfo} z-[4]`}>
         <Sec3Card/>
-
       </div>
-      <div className={`${layout.sectionInfo} mb-10`}>
+      <div className={`${layout.sectionInfo} m-10`}>
         <h2 className={`${styles.heading2} ${styles.flexCenter}`}>
           <br className="sm:block hidden" />
            Your success is our mission.
         </h2>
-        <div className="absolute z-[0] w-[60%] h-[20%] rounded-full bottom-20 left-10 orange__gradient opacity-[.2]"></div>
         <div className={`max-w-[700px]`}>
           <div className={`${styles.paragraph}`}>
             We prioritize your goals through close collaboration

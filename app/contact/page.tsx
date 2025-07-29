@@ -12,7 +12,7 @@ const ContactPage = () => {
             alt="background logo"
             fill
             quality={100}
-            className="object-contain object-center opacity-[.2]"
+            className="object-contain object-center opacity-[.1]"
             priority
           />
         </div>

@@ -16,9 +16,9 @@ export default function Sec2Card() {
   return (
     <Box
       component="section"
-      className="bg-black w-screen" // ✅ ensure black background spans full viewport
+      className="bg-black w-screen" 
       sx={{
-        minHeight: '50vh',       // Optional: make it tall like a full section
+        minHeight: '50vh',   
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

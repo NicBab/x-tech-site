@@ -11,7 +11,7 @@ const Section2 = () => {
           Performance, Reliability, Efficiency
         </h2>
 
-        <div className={`${styles.paragraph} max-w-[700px] my-5`}>
+        <div className={`${styles.paragraph} max-w-[700px] mb-10`}>
           We combine practical engineering experience with a clear focus on your
           goals. Our solutions are tailored to improve where it counts.
         </div>

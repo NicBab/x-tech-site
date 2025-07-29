@@ -162,6 +162,30 @@ export const Sec2CardInfo = [
   },
 ];
 
+export const features = [
+  {
+    id: "feature-1",
+    icon: "/X_icon.png",
+    title: "Title 1",
+    content:
+      "Some info 1 here",
+  },
+  {
+    id: "feature-2",
+    icon: "/X_icon.png",
+    title: "Title 2",
+    content:
+      "Some info 2 here",
+  },
+  {
+    id: "feature-3",
+    icon: "/X_icon.png",
+    title: "Title 3",
+    content:
+      "Some info 3 here",
+  },
+];
+
 export const Sec3CardInfo = [
 {
     id: "info-1",
