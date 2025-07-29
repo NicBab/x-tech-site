@@ -50,6 +50,7 @@ export default function Sec2Card() {
                 flexDirection: "column",
                 justifyContent: "space-between",
                 backgroundColor: "#1a1a1a",
+                borderRadius: "4px"
               }}
               elevation={4}
             >

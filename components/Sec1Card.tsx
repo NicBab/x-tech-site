@@ -31,6 +31,7 @@ export default function Sec1Card() {
             width: "100%",
             height: 420,
             display: "flex",
+            borderRadius: "4px",
             flexDirection: "column",
             justifyContent: "flex-start",
             overflow: "hidden",

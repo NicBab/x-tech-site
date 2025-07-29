@@ -37,8 +37,7 @@ export default function Sec3Card() {
             display: "flex",
             flexDirection: "row",
             justifyContent: "flex-start",
-           
-            borderRadius: "5px",
+            borderRadius: "4px",
             overflow: "hidden",
           }}
           elevation={4}
