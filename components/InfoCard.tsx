@@ -69,7 +69,7 @@ export default function InfoCard() {
               }}
             >
               <Typography
-                variant="h5"
+                variant="h4"
                 component="div"
                 align="center"
                 sx={{ mb: 1 }}
