@@ -6,7 +6,7 @@ const Section1 = () => {
   return (
     <section className={`${styles.margins} relative`}>
       <h2 className={`${styles.heading2}`}>
-        Control solutions for all industries.
+        Control solutions for your industry.
       </h2>
       <InfoCard />
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}></div>

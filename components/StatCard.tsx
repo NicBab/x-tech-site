@@ -14,31 +14,41 @@ import "swiper/css";
 
 export default function StatCard() {
   return (
-    <Box className="bg-black w-full py-10 px-6" sx={{ mt: 6 }}>
+    <Box
+      className="bg-black w-full"
+      sx={{
+        minHeight: '500', // Full screen height
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        mt: 0,
+        px: 0,
+        py: 8, // vertical spacing inside section
+      }}
+    >
       <Swiper
-        spaceBetween={16}
+        spaceBetween={20}
         slidesPerView={"auto"}
         grabCursor={true}
-        style={{ paddingBottom: "1rem" }}
+        style={{ paddingBottom: "1rem", paddingLeft: "1rem", paddingRight: "1rem" }} // swiper inside padding
       >
         {FEATURES.map((feature) => (
           <SwiperSlide
             key={feature.id}
-            style={{ width: 240 }}
+            style={{ width: 280 }}
           >
             <Card
               sx={{
                 width: "100%",
-                height: 260,
+                height: 300,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
-                backgroundColor: "#1a1a1a", // dark gray / near-black
+                backgroundColor: "#1a1a1a",
               }}
               elevation={4}
             >
               <CardActionArea sx={{ height: "100%" }}>
-                {/* Title Section */}
                 <Box sx={{ px: 2, pt: 2 }}>
                   <Typography
                     variant="h6"
@@ -50,7 +60,6 @@ export default function StatCard() {
                   </Typography>
                 </Box>
 
-                {/* Description Section */}
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography
                     variant="body2"

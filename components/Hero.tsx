@@ -22,12 +22,12 @@ const Hero = () => {
               <br className="sm:block " />
             </h1>
           </div>
-          <div className={`flex ${styles.flexCenter} md:my-0 relative p-5`}>
+          <div className={`flex ${styles.flexCenter} md:my-0 relative p-2`}>
             <Image
               src="/X_grey_logo.png"
               alt="logo"
-              width={1000}
-              height={1000}
+              width={800}
+              height={800}
               className="relative z-[2]"
             />
           </div>

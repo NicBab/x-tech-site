@@ -44,8 +44,8 @@ const AboutPage = () => {
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
           <div className={`${styles.flexCenter}`}>
             <Image
-              src="/fulllogo_transparent.png"
-              alt="full logo transparent"
+              src="/HMI_technician.png"
+              alt="HMI_technician"
               width={300}
               height={240}
               className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow-3"
