@@ -7,9 +7,9 @@ import {
   CardActionArea,
   Box,
 } from '@mui/material';
-import { INFO } from '@/constants/photos';
+import { Sec1CardInfo } from '@/constants/index';
 
-export default function InfoCard() {
+export default function Sec1Card() {
   return (
     <Box
       sx={{
@@ -23,9 +23,9 @@ export default function InfoCard() {
         px: 2,
       }}
     >
-      {INFO.map((photo) => (
+      {Sec1CardInfo.map((info) => (
         <Card
-          key={photo.id}
+          key={info.id}
           sx={{
             maxWidth: 300,
             width: '100%',
@@ -50,8 +50,8 @@ export default function InfoCard() {
           >
             <CardMedia
               component="img"
-              image={photo.src}
-              alt={photo.alt}
+              image={info.src}
+              alt={info.alt}
               height="220"
               sx={{
                 display: 'block',
@@ -74,7 +74,7 @@ export default function InfoCard() {
                 align="center"
                 sx={{ mb: 1 }}
               >
-                {photo.title}
+                {info.title}
               </Typography>
               <Typography
                 variant="body1"
@@ -83,7 +83,7 @@ export default function InfoCard() {
                   textAlign: 'center',
                 }}
               >
-                {photo.desc}
+                {info.desc}
               </Typography>
             </CardContent>
           </CardActionArea>

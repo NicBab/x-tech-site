@@ -21,58 +21,82 @@ export const SOCIALS_ICONS = [
   // },
 ];
 
-export const STATS = [
-  {
-    id: "stats-1",
-    src: "",
-    alt: "",
-    title: "-AUTOMATION SOLUTIONS-",
-    desc: "",
-  },
-  {
-    id: "stats-2",
-    src: "",
-    alt: "",
-    title: "-CONTROL SYSTEM DESIGN-",
-    desc: "",
-  },
-  {
-    id: "stats-3",
-    src: "",
-    alt: "",
-    title: "-SCADA-",
-    desc: "",
-  },
-  {
-    id: "stats-4",
-    src: "",
-    alt: "",
-    title: "-POWER GENERATION & ENGINE CONTROL-",
-    desc: "",
-  },
-];
+// export const STATS = [
+//   {
+//     id: "stats-1",
+//     src: "",
+//     alt: "",
+//     title: "-AUTOMATION SOLUTIONS-",
+//     desc: "",
+//   },
+//   {
+//     id: "stats-2",
+//     src: "",
+//     alt: "",
+//     title: "-CONTROL SYSTEM DESIGN-",
+//     desc: "",
+//   },
+//   {
+//     id: "stats-3",
+//     src: "",
+//     alt: "",
+//     title: "-SCADA-",
+//     desc: "",
+//   },
+//   {
+//     id: "stats-4",
+//     src: "",
+//     alt: "",
+//     title: "-POWER GENERATION & ENGINE CONTROL-",
+//     desc: "",
+//   },
+// ];
 
-export const STATS2 = [
+// export const STATS2 = [
+//   {
+//     id: "stats-5",
+//     title: "-PROJECT MANAGEMENT-",
+//     value: "",
+//   },
+//   {
+//     id: "stats-6",
+//     title: "-CONSULTING-",
+//     value: "",
+//   },
+//   {
+//     id: "stats-7",
+//     title: "-COMMISSIONING & STARTUP-",
+//     value: "",
+//   },
+// ];
+
+export const Sec1CardInfo = [
   {
-    id: "stats-5",
-    title: "-PROJECT MANAGEMENT-",
-    value: "",
+    id: "info-1",
+    src: "/vfd_skid.JPG",
+    alt: "vfd_skid",
+    title: "Oil & Gas",
+    desc: "Providing services to the oil and gas industry",
   },
   {
-    id: "stats-6",
-    title: "-CONSULTING-",
-    value: "",
+    id: "info-2",
+    src: "/panel_door.JPG",
+    alt: "panel_door",
+    title: "Industrial & Business",
+    desc: "Providing services to the Industrial industry",
   },
   {
-    id: "stats-7",
-    title: "-COMMISSIONING & STARTUP-",
-    value: "",
+    id: "info-3",
+    src: "/vfd_glands.JPG",
+    alt: "vfd_glands",
+    title: "Utilities & Water",
+    desc: "Providing services to the Utilities industries",
   },
 ];
 
 
 // FEATURES SECTION
-export const FEATURES = [
+export const Sec2CardInfo = [
   {
     id: "stat-1",
     src: "",
@@ -135,6 +159,30 @@ export const FEATURES = [
     icon: "/X_icon.png",
     variant: "",
     desc: "Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
+  },
+];
+
+export const Sec3CardInfo = [
+{
+    id: "info-1",
+    src: "/vfd_skid.JPG",
+    alt: "vfd_skid",
+    title: "Title 1 Here",
+    desc: "Some info 1 here",
+  },
+  {
+    id: "info-2",
+    src: "/panel_door.JPG",
+    alt: "panel_door",
+     title: "Title 2 Here",
+    desc: "Some info 2 here",
+  },
+  {
+    id: "info-3",
+    src: "/vfd_glands.JPG",
+    alt: "vfd_glands",
+    title: "Title 3 Here",
+    desc: "Some info 3 here",
   },
 ];
 

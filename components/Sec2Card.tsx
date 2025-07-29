@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { FEATURES } from "@/constants/index";
+import { Sec2CardInfo } from "@/constants/index";
 import {
   Card,
   CardContent,
@@ -12,29 +12,34 @@ import {
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-export default function StatCard() {
+export default function Sec2Card() {
   return (
     <Box
-      className="bg-black w-full"
+      component="section"
+      className="bg-black w-screen" // ✅ ensure black background spans full viewport
       sx={{
-        minHeight: '500', // Full screen height
+        minHeight: '50vh',       // Optional: make it tall like a full section
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        mt: 0,
         px: 0,
-        py: 8, // vertical spacing inside section
+        py: 10,
+        m: 0,
       }}
     >
       <Swiper
         spaceBetween={20}
         slidesPerView={"auto"}
         grabCursor={true}
-        style={{ paddingBottom: "1rem", paddingLeft: "1rem", paddingRight: "1rem" }} // swiper inside padding
+        style={{
+          paddingBottom: "1rem",
+          paddingLeft: "1rem",
+          paddingRight: "1rem",
+        }}
       >
-        {FEATURES.map((feature) => (
+        {Sec2CardInfo.map((info) => (
           <SwiperSlide
-            key={feature.id}
+            key={info.id}
             style={{ width: 280 }}
           >
             <Card
@@ -56,7 +61,7 @@ export default function StatCard() {
                     align="center"
                     className="orange-text-gradient"
                   >
-                    {feature.title}
+                    {info.title}
                   </Typography>
                 </Box>
 
@@ -69,7 +74,7 @@ export default function StatCard() {
                       mt: 1,
                     }}
                   >
-                    {feature.desc}
+                    {info.desc}
                   </Typography>
                 </CardContent>
               </CardActionArea>

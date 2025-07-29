@@ -1,17 +1,18 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
-import InfoCard from "./InfoCard";
+import Sec1Card from "./Sec1Card";
 
 const Section1 = () => {
   return (
     <section className={`${styles.margins} relative`}>
-      <h2 className={`${styles.heading2}`}>
-        Control solutions for your industry.
-      </h2>
-      <InfoCard />
+      <h2 className={`${styles.heading2} my-10`}>Complete Control Solutions...</h2>
+      <h3 className={`${styles.heading2} orange-text-gradient`}>
+        For any Industry
+      </h3>
+      <Sec1Card />
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}></div>
       <div className={`${layout.sectionInfo}`}>
-        <div className={`${styles.paragraph} max-w-[700px]`}>
+        <div className={`${styles.paragraph} max-w-[700px] my-5`}>
           We streamline process systems with modern design, seamless
           integration, and reliable engineering—built for performance, safety,
           and growth.

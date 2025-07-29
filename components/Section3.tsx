@@ -1,6 +1,6 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
-import InfoCard from "./InfoCard";
+import Sec3Card from "./Sec3Card";
 
 const Section3 = () => {
   return (
@@ -9,7 +9,7 @@ const Section3 = () => {
       className={`${layout.section} ${styles.margins} relative`}
     >
       <div className={`${layout.sectionInfo} z-[4] mt-5`}>
-        <InfoCard/>
+        <Sec3Card/>
 
       </div>
       <div className={`${layout.sectionInfo} mb-10`}>

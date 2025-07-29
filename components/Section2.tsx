@@ -1,6 +1,6 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
-import StatCard from "./StatCard";
+import Sec2Card from "./Sec2Card";
 
 const Section2 = () => {
   return (
@@ -11,7 +11,7 @@ const Section2 = () => {
           Performance, Reliability, Efficiency
         </h2>
 
-        <div className={`${styles.paragraph} max-w-[700px]`}>
+        <div className={`${styles.paragraph} max-w-[700px] my-5`}>
           We combine practical engineering experience with a clear focus on your
           goals. Our solutions are tailored to improve where it counts.
         </div>
@@ -22,7 +22,7 @@ const Section2 = () => {
         </div> */}
       </div>
       <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
-        <StatCard />
+        <Sec2Card />
       </div>
     </section>
   );
