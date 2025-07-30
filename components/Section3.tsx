@@ -8,7 +8,7 @@ const Section3 = () => {
       id="Section3"
       className={`${layout.section} ${styles.margins} relative`}
     >
-      <div className={`${layout.sectionInfo} z-[4]`}>
+      <div className={`${layout.sectionInfo} z-[4] mx-10`}>
         <Sec3Card/>
       </div>
       <div className={`${layout.sectionInfo} m-10`}>

@@ -24,21 +24,21 @@ export default function Sec1Card() {
       }}
     >
       {Sec1CardInfo.map((info) => (
-        <Card
-          key={info.id}
-          sx={{
-            maxWidth: 300,
-            width: "100%",
-            height: 420,
-            display: "flex",
-            borderRadius: "4px",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            overflow: "hidden",
-            p: 0, 
-          }}
-          elevation={4}
-        >
+<Card
+  key={info.id}
+  sx={{
+    flex: '1 1 220px', // minimum preferred width
+    maxWidth: 260,     // max width cap even on xl
+    minWidth: 200,     // never shrink below this
+    height: 420,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    overflow: 'hidden',
+    p: 0,
+  }}
+  elevation={4}
+>
           <CardActionArea
             sx={{
               height: "100%",
