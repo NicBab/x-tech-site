@@ -9,7 +9,7 @@ import {
   CardActionArea,
   Box,
 } from "@mui/material";
-import { features } from "@/constants/index";
+import { Sec3CardInfo } from "@/constants/index";
 
 export default function Sec3Card() {
   return (
@@ -21,14 +21,14 @@ export default function Sec3Card() {
         alignItems: "center",
         gap: 4,
         width: "100%",
-        mx: 5,
-        my: 5,
+        mx: 2,
+        my: 2,
         px: 2,
       }}
     >
-      {features.map((feature) => (
+      {Sec3CardInfo.map((info) => (
         <Card
-          key={feature.id}
+          key={info.id}
           className="cards"
           sx={{
             width: "100%",
@@ -67,7 +67,7 @@ export default function Sec3Card() {
             >
               <CardMedia
                 component="img"
-                src={feature.icon}
+                src={info.icon}
                 alt="icon"
                 sx={{
                   width: "50%",
@@ -83,7 +83,7 @@ export default function Sec3Card() {
                 component="div"
                 sx={{ fontWeight: 600, mb: 1 }}
               >
-                {feature.title}
+                {info.title}
               </Typography>
               <Typography
                 variant="body1"
@@ -91,7 +91,7 @@ export default function Sec3Card() {
                   color: "text.secondary",
                 }}
               >
-                {feature.content}
+                {info.content}
               </Typography>
             </CardContent>
           </CardActionArea>

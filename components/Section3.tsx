@@ -20,7 +20,7 @@ const Section3 = () => {
           <div className={`${styles.paragraph}`}>
             We prioritize your goals through close collaboration
           and tailored solutions. Our team is dedicated to boosting efficiency
-          and ROI—
+          and ROI
            
           </div>
         </div>

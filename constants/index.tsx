@@ -70,53 +70,55 @@ export const SOCIALS_ICONS = [
 //   },
 // ];
 
+
+ //SECTION 1
 export const Sec1CardInfo = [
   {
     id: "info-1",
-    src: "/vfd_skid.JPG",
-    alt: "vfd_skid",
+    src: "/oil_platform.png",
+    alt: "oil_platform",
     title: "Oil + Gas + LNG",
     desc: "Providing services to the oil and gas industry",
   },
   {
     id: "info-2",
-    src: "/panel_door.JPG",
-    alt: "panel_door",
+    src: "/industrial_factory.png",
+    alt: "industrial_factory",
     title: "Industrial + Business",
     desc: "Providing services to the Industrial industry",
   },
   {
     id: "info-3",
-    src: "/vfd_glands.JPG",
-    alt: "vfd_glands",
+    src: "/water_facility.png",
+    alt: "water_facility",
     title: "Utilities + Water",
     desc: "Providing services to the Utilities industries",
   },
     {
     id: "info-4",
-    src: "/X_grey_logo.png",
-    alt: "vfd_glands",
+    src: "/brew_tank.png",
+    alt: "brew_tank",
     title: "Food + Beverage",
     desc: "Providing services to the Utilities industries",
   },
       {
     id: "info-5",
-    src: "/X_grey_logo.png",
-    alt: "vfd_glands",
+    src: "/marine_engine_panel.png",
+    alt: "marine_engine_panel",
     title: "Marine + Agriculture",
     desc: "Providing services to the Utilities industries",
   },
         {
     id: "info-6",
-    src: "/X_grey_logo.png",
-    alt: "vfd_glands",
+    src: "/chem_tanks.png",
+    alt: "chem_tanks",
     title: "Chemical + Pharmaceutical",
     desc: "Providing services to the Utilities industries",
   },
 ];
 
 
-// FEATURES SECTION
+//SECTION 2
 export const Sec2CardInfo = [
   {
     id: "stat-1",
@@ -183,7 +185,9 @@ export const Sec2CardInfo = [
   },
 ];
 
-export const features = [
+
+//SECTION 3
+export const Sec3CardInfo = [
   {
     id: "feature-1",
     icon: "/X_icon.png",
@@ -196,7 +200,7 @@ export const features = [
     icon: "/X_icon.png",
     title: "Integration & Development",
     content:
-      "Bringing systems, software, and hardware together into seamless, high-performance solutions. We streamline workflows, connect technologies, and build tools that drive efficiency and innovation.",
+      "Bringing software, hardware and communications together into seamless, high-performance solutions. We streamline workflows, connect technologies, and build tools that drive efficiency and innovation.",
   },
   {
     id: "feature-3",
@@ -207,29 +211,6 @@ export const features = [
   },
 ];
 
-export const Sec3CardInfo = [
-{
-    id: "info-1",
-    src: "/vfd_skid.JPG",
-    alt: "vfd_skid",
-    title: "Title 1 Here",
-    desc: "Some info 1 here",
-  },
-  {
-    id: "info-2",
-    src: "/panel_door.JPG",
-    alt: "panel_door",
-     title: "Title 2 Here",
-    desc: "Some info 2 here",
-  },
-  {
-    id: "info-3",
-    src: "/vfd_glands.JPG",
-    alt: "vfd_glands",
-    title: "Title 3 Here",
-    desc: "Some info 3 here",
-  },
-];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [

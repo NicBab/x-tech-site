@@ -15,9 +15,9 @@ const Hero = () => {
       <div
         className={`relative z-1 flex ${styles.paddingY} ${styles.flexCenter}`}
       >
-        <div className="xl:px-0 sm:px-16 p-10">
+        <div className="xl:px-0 sm:px-16 m-2">
           <div className="flex flex-wrap-row justify-between items-center w-full">
-            <h1 className="flex-1 mb-5 font-poppins font-semibold ss:text-[25px] text-[18px] text-dimWhite ss:leading-[40px] leading-[40px]">
+            <h1 className="flex-1 mx-5 font-poppins font-semibold ss:text-[25px] text-[18px] text-dimWhite ss:leading-[40px] leading-[40px]">
               Welcome to
               <br className="sm:block " />
             </h1>

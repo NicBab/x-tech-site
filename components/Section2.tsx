@@ -8,7 +8,7 @@ const Section2 = () => {
       <div className={`${layout.sectionInfo} z-[4] sm:mb-10`}>
         <h2 className={`${styles.heading2}`}>
           <br className="sm:block hidden mt-10" />
-          Performance, Reliability, Efficiency
+          Performance, Reliability, Efficiency...
         </h2>
 
         <div className={`${styles.paragraph} max-w-[700px] mb-10`}>

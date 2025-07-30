@@ -81,7 +81,7 @@ type FeatureItem = {
 
 const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
-    <li className="flex w-full flex-1 flex-col items-center p-5 bg-black-gradient rounded-[10px] shadow-2">
+    <li className="flex w-full flex-1 flex-col items-center p-5 rounded-[10px] form-card">
       <div className="rounded-full">
         <Image src={icon} alt="map" width={50} height={50} />
       </div>
@@ -89,7 +89,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
         {title}
         <br className="sm:block " />
       </h2>
-      <p className={`${styles.paragraph} text-dimWhite`}>{description}</p>
+      <p className={`${styles.paragraph} text-black`}>{description}</p>
     </li>
   );
 };

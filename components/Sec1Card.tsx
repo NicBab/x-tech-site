@@ -65,8 +65,7 @@ export default function Sec1Card() {
             <CardContent
               sx={{
                 flexGrow: 1,
-                px: 2,
-                pt: 2,
+           
               }}
             >
               <Typography
@@ -76,15 +75,6 @@ export default function Sec1Card() {
                 sx={{ fontWeight: 600 }}
               >
                 {info.title}
-              </Typography>
-              <Typography
-                variant="body1"
-                sx={{
-                  color: "text.secondary",
-                  textAlign: "center",
-                }}
-              >
-                {/* {info.desc} */}
               </Typography>
             </CardContent>
           </CardActionArea>

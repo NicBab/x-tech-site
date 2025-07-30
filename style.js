@@ -4,7 +4,7 @@ const styles = {
     buttonPrimary: "py-2 px-2 m-4 w-[200px] bg-orange-gradient font-poppins font-medium text-[16px] text-primary rounded-full hover:text-blueText",
     buttonSecondary: "py-2 px-2 m-4 w-[200px] orange-text-gradient font-poppins font-medium text-[16px] border border-1 border-orange hover:border-blueText rounded-full",
 
-    heading2: "font-poppins flex justify-center font-semibold text-[40px] xs:text-[40px] text-black xs:leading-[65px] leading-[65px] w-full",
+    heading2: "font-poppins flex justify-center text-[40px] xs:text-[40px] text-black xs:leading-[65px] leading-[65px] w-full",
     ctaHeader: "p-5 font-poppins flex justify-center font-semibold text-[40px] xs:text-[40px] text-white xs:leading-[85px] leading-[85px] w-full",
     paragraph: "p-5 font-poppins text-[20px] text-black sm:text-[14px] leading-[35px] indent-5",
 
@@ -21,9 +21,9 @@ const styles = {
     paddingY: "sm:py-12 py-4",
     padding: "sm:px-16 px-6 sm:py-12 py-4",
   
-    marginX: "sm:mx-16 mx-6",
-    marginY: "sm:my-16 my-6",
-    margins: "sm:mx-16 mx-6 sm:my-16 my-6"
+    marginX: "sm:mx-14 mx-6",
+    marginY: "sm:my-14 my-6",
+    margins: "sm:mx-14 mx-6 sm:my-14 my-6"
   };
   
   export const layout = {
