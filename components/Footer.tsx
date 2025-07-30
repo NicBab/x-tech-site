@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="flexCenter text-dimWhite p-5">
         <PhoneNumber/>
       <div className="relative z-2 flex flex-col items-center sm:px-10">
-        <div className="flex items-center justify-center m-2 max-w-xs text-white font-poppins font-semibold text-[18px] ss:text-[30px] max-h-[300px]">
+        <div className="flex items-center justify-center m-2 max-w-xs text-white font-poppins text-[18px] ss:text-[30px] max-h-[300px]">
           <span className="block text-center leading-snug mb-5">
             X Technology
             <br />
@@ -46,10 +46,10 @@ const Footer = () => {
                     key={link.label}
                     className="flex gap-4 md:flex-col lg:flex-row"
                   >
-                    <p className="whitespace-nowrap text-dimWhite">
+                    <p className="whitespace-wrap text-dimWhite">
                       {link.label}:
                     </p>
-                    <p className="medium-14 whitespace-nowrap text-dimWhite">
+                    <p className="medium-14 whitespace-wrap text-dimWhite">
                       {link.value}
                     </p>
                   </Link>

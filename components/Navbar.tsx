@@ -18,9 +18,9 @@ const Navbar = () => {
         <Image
           src="/X_icon.png"
           alt="icon"
-          width={100}
-          height={100}
-          className="w-[70px] h-[50px]"
+          width={50}
+          height={50}
+          className="w-[50px] h-[35px]"
         />
       </Link>
       <Socials className="" />

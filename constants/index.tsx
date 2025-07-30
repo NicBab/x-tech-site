@@ -228,7 +228,7 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us:",
   links: [
     { label: "Office", value: "(337) 326-5570" },
-    { label: "Email", value: "admin@xtechnology-usa.com" },
+    { label: "Email", value: "info@xtechnology-usa.com" },
     { label: "Address", value: "202 Magnate Dr. suite-B, Lafayette, La" },
   ],
 };
