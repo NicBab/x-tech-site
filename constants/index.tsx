@@ -75,21 +75,42 @@ export const Sec1CardInfo = [
     id: "info-1",
     src: "/vfd_skid.JPG",
     alt: "vfd_skid",
-    title: "Oil & Gas",
+    title: "Oil + Gas + LNG",
     desc: "Providing services to the oil and gas industry",
   },
   {
     id: "info-2",
     src: "/panel_door.JPG",
     alt: "panel_door",
-    title: "Industrial & Business",
+    title: "Industrial + Business",
     desc: "Providing services to the Industrial industry",
   },
   {
     id: "info-3",
     src: "/vfd_glands.JPG",
     alt: "vfd_glands",
-    title: "Utilities & Water",
+    title: "Utilities + Water",
+    desc: "Providing services to the Utilities industries",
+  },
+    {
+    id: "info-4",
+    src: "/X_grey_logo.png",
+    alt: "vfd_glands",
+    title: "Food + Beverage",
+    desc: "Providing services to the Utilities industries",
+  },
+      {
+    id: "info-5",
+    src: "/X_grey_logo.png",
+    alt: "vfd_glands",
+    title: "Marine + Agriculture",
+    desc: "Providing services to the Utilities industries",
+  },
+        {
+    id: "info-6",
+    src: "/X_grey_logo.png",
+    alt: "vfd_glands",
+    title: "Chemical + Pharmaceutical",
     desc: "Providing services to the Utilities industries",
   },
 ];
@@ -166,23 +187,23 @@ export const features = [
   {
     id: "feature-1",
     icon: "/X_icon.png",
-    title: "Title 1",
+    title: "Engineering & Design",
     content:
-      "Some info 1 here",
+      "From concept to execution, we develop solutions that are not only functional and efficient but also scalable and tailored to real-world applications. ",
   },
   {
     id: "feature-2",
     icon: "/X_icon.png",
-    title: "Title 2",
+    title: "Integration & Development",
     content:
-      "Some info 2 here",
+      "Bringing systems, software, and hardware together into seamless, high-performance solutions. We streamline workflows, connect technologies, and build tools that drive efficiency and innovation.",
   },
   {
     id: "feature-3",
     icon: "/X_icon.png",
-    title: "Title 3",
+    title: "Field Services",
     content:
-      "Some info 3 here",
+      "From installation and commissioning to troubleshooting and maintenance, we ensure systems run reliably and efficiently in real-world conditions.",
   },
 ];
 
