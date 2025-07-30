@@ -8,7 +8,7 @@ const ContactForm = () => {
         className={`${layout.form} flex flex-center w-full max-w-[700px] bg-white p-6 m-6 rounded-xl text-white form-card`}
       >
         <h1 className={`${styles.heading2} text-center`}>
-          Contact Us!
+          Contact Our Experts!
           <br className="sm:block hidden" />
         </h1>
         <div className={`flex-col z-[1]`}>

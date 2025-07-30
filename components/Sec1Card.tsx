@@ -30,7 +30,7 @@ export default function Sec1Card() {
     flex: '1 1 220px', // minimum preferred width
     maxWidth: 260,     // max width cap even on xl
     minWidth: 200,     // never shrink below this
-    height: 420,
+    height: 320,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-start',
@@ -53,7 +53,7 @@ export default function Sec1Card() {
               component="img"
               image={info.src}
               alt={info.alt}
-              height="220"
+              height="200"
               sx={{
                 display: "block",
                 m: 0,
