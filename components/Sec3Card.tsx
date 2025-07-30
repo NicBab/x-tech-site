@@ -18,11 +18,11 @@ export default function Sec3Card() {
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
-        alignItems: "stretch",
+        alignItems: "center",
         gap: 4,
         width: "100%",
-        mx: 10,
-        my: 10,
+        mx: 5,
+        my: 5,
         px: 2,
       }}
     >
@@ -51,7 +51,7 @@ export default function Sec3Card() {
               p: 2,
             }}
           >
-            <Box
+            {/* <Box
               sx={{
                 width: 60,
                 height: 60,
@@ -75,10 +75,10 @@ export default function Sec3Card() {
                   objectFit: "contain",
                 }}
               />
-            </Box>
+            </Box> */}
 
             <CardContent sx={{ flex: 1, pl: 0 }}>
-              <Typography
+              <Typography className="orange-text-gradient"
                 variant="h5"
                 component="div"
                 sx={{ fontWeight: 600, mb: 1 }}

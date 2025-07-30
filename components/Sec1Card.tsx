@@ -24,21 +24,21 @@ export default function Sec1Card() {
       }}
     >
       {Sec1CardInfo.map((info) => (
-<Card
-  key={info.id}
-  sx={{
-    flex: '1 1 220px', // minimum preferred width
-    maxWidth: 260,     // max width cap even on xl
-    minWidth: 200,     // never shrink below this
-    height: 320,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    overflow: 'hidden',
-    p: 0,
-  }}
-  elevation={4}
->
+        <Card
+          key={info.id}
+          sx={{
+            flex: "1 1 220px", // minimum preferred width
+            maxWidth: 320, // max width cap even on xl
+            minWidth: 220, // never shrink below this
+            height: 300,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-start",
+            overflow: "hidden",
+            p: 0,
+          }}
+          elevation={4}
+        >
           <CardActionArea
             sx={{
               height: "100%",
@@ -53,9 +53,9 @@ export default function Sec1Card() {
               component="img"
               image={info.src}
               alt={info.alt}
-              height="200"
+              height="100"
               sx={{
-                display: "block",
+                display: "flex",
                 m: 0,
                 p: 0,
                 borderRadius: 0,
@@ -73,7 +73,7 @@ export default function Sec1Card() {
                 variant="h5"
                 component="div"
                 align="center"
-                sx={{ fontWeight: 600, mb: 1 }}
+                sx={{ fontWeight: 600 }}
               >
                 {info.title}
               </Typography>
@@ -84,7 +84,7 @@ export default function Sec1Card() {
                   textAlign: "center",
                 }}
               >
-                {info.desc}
+                {/* {info.desc} */}
               </Typography>
             </CardContent>
           </CardActionArea>
