@@ -46,25 +46,25 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
         className={`${styles.margins} flex md:flex-row flex-col`}
       >
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
-          <div className={`${styles.flexCenter}`}>
+          <div className={`${styles.flexCenter} overflow-hidden`}>
             <Image
               src={industry.src}
               alt={industry.alt}
               width={300}
               height={240}
-              className="sm:w-[550px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow"
+              className="sm:w-[550px] sm:h-[380px] relative rounded-md object-cover z-[3] mb-8 shadow"
             />
           </div>
         </div>
 
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
           <div className="max-w-[700px] min-w-[250px] m-8 z-2">
-            <div className="flex flex-wrap-row justify-between items-center w-full">
+            <div className="flex flex-wrap-row justify-between items-center w-full overflow-hidden">
               <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
                 ...
               </h2>
             </div>
-            <span className={`${styles.paragraph} text-black`}>
+            <span className={`${styles.paragraph} text-black object-cover`}>
               {industry.desc}
             </span>
           </div>

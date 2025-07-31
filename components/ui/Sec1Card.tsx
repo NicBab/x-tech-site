@@ -27,22 +27,22 @@ export default function Sec1Card() {
       }}
     >
       {Sec1CardInfo.map((info) => (
-        <Link
-          href={info.href}
-          key={info.id}
-          style={{ textDecoration: "none" }}
-        >
+        <Link href={info.href} key={info.id} style={{ textDecoration: "none" }}>
           <Card
             sx={{
-              flex: "1 1 220px",
-              maxWidth: 320,
-              minWidth: 220,
+              width: 280,
               height: 300,
+              flex: "0 0 auto",
               display: "flex",
               flexDirection: "column",
               justifyContent: "flex-start",
               overflow: "hidden",
+              borderRadius: 2,
               p: 0,
+              transition: "transform 0.2s ease-in-out",
+              "&:hover": {
+                transform: "scale(1.02)",
+              },
             }}
             elevation={4}
           >
@@ -51,6 +51,7 @@ export default function Sec1Card() {
                 height: "100%",
                 display: "flex",
                 flexDirection: "column",
+                justifyContent: "flex-start",
                 alignItems: "stretch",
                 p: 0,
                 m: 0,
@@ -60,21 +61,41 @@ export default function Sec1Card() {
                 component="img"
                 image={info.src}
                 alt={info.alt}
-                height="100"
                 sx={{
-                  display: "flex",
-                  m: 0,
-                  p: 0,
-                  borderRadius: 0,
+                  height: 160,
+                  width: "100%",
+                  objectFit: "cover",
+                  display: "block",
+                  overflow: "hidden",
+                  backgroundColor: "#f9f9f9",
                 }}
               />
 
-              <CardContent sx={{ flexGrow: 1 }}>
+              <CardContent
+                sx={{
+                  flexGrow: 1,
+                  display: "flex",
+                  alignItems: "center", // vertical alignment
+                  justifyContent: "center",
+                  textAlign: "center",
+                  px: 2,
+                  py: 1, // less vertical padding
+                }}
+              >
                 <Typography
-                  variant="h5"
+                  variant="h4"
                   component="div"
-                  align="center"
-                  sx={{ fontWeight: 600 }}
+                  sx={{
+                    fontWeight: 600,
+                    fontSize: 16,
+                    lineHeight: 1.2, // tighter line spacing
+                    maxHeight: "3.5em",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    display: "-webkit-box",
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical",
+                  }}
                 >
                   {info.title}
                 </Typography>
