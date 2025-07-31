@@ -35,7 +35,7 @@ export default function Sec2Card() {
       }}
     >
       {/* Left Arrow */}
-      <div className="absolute top-0 w-full px-4 flex justify-between z-10">
+      <div className="absolute bottom-0 w-full px-4 flex justify-between z-10">
         <div ref={prevRef} className="cursor-pointer">
           <ChevronLeft
             size={32}
