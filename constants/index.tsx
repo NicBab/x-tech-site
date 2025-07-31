@@ -14,61 +14,7 @@ export const SOCIALS_ICONS = [
     icon: "/linkedin.svg",
     href: "https://www.linkedin.com/company/xtechnology-and-consulting-llc/",
   },
-  // {
-  //   title: "facebook",
-  //   icon: "/facebook.svg",
-  //   href: "",
-  // },
 ];
-
-// export const STATS = [
-//   {
-//     id: "stats-1",
-//     src: "",
-//     alt: "",
-//     title: "-AUTOMATION SOLUTIONS-",
-//     desc: "",
-//   },
-//   {
-//     id: "stats-2",
-//     src: "",
-//     alt: "",
-//     title: "-CONTROL SYSTEM DESIGN-",
-//     desc: "",
-//   },
-//   {
-//     id: "stats-3",
-//     src: "",
-//     alt: "",
-//     title: "-SCADA-",
-//     desc: "",
-//   },
-//   {
-//     id: "stats-4",
-//     src: "",
-//     alt: "",
-//     title: "-POWER GENERATION & ENGINE CONTROL-",
-//     desc: "",
-//   },
-// ];
-
-// export const STATS2 = [
-//   {
-//     id: "stats-5",
-//     title: "-PROJECT MANAGEMENT-",
-//     value: "",
-//   },
-//   {
-//     id: "stats-6",
-//     title: "-CONSULTING-",
-//     value: "",
-//   },
-//   {
-//     id: "stats-7",
-//     title: "-COMMISSIONING & STARTUP-",
-//     value: "",
-//   },
-// ];
 
 //SECTION 1
 export const Sec1CardInfo = [

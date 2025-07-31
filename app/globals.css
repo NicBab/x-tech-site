@@ -22,21 +22,12 @@ body {
 }
 
 .shadow {
-  /* border: 1px solid rgb(28, 28, 28); */
   box-shadow: -2px 5px 8px 2px rgba(0, 0, 3, 0.999);
 }
-.shadow-2 {
-  border: 1px solid rgb(28, 28, 28);
-  box-shadow: -3px 3px 10px 3px rgba(0, 0, 1, 0.999);
-}
-.shadow-3 {
-  border: 1px solid rgb(28, 28, 28);
-  box-shadow: -3px 8px 20px 4px rgba(0, 0, 1, 0.999);
-}
+
 .transform:hover {
   transform: scale(1.01);
 }
-
 
 .bg-black-gradient {
   background: linear-gradient(144.39deg,
@@ -64,14 +55,6 @@ body {
 
 .orange-gradient {
   background: linear-gradient(180deg, rgba(255, 213, 153, 0) 0%, #fca85d 100%);
-}
-
-.purple-text-gradient {
-  background: linear-gradient(135.9deg, rgb(106, 23, 250) 16.4%, rgb(125, 31, 165) 56.1%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 
 .orange-text-gradient {
@@ -107,20 +90,6 @@ body {
 .orange__gradient {
   background: linear-gradient(180deg, rgba(255, 213, 153, 0) 0%, #fca85d 100%);
   filter: blur(300px);
-}
-
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
-}
-
-.bg-purple-gradient {
-  background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%)
-}
-
-.purple__gradient {
-  background: linear-gradient(90deg, #6c19fa 16.4%, #7d1fa5 56.1%);
-  filter: blur(900px);
 }
 
 .white__gradient {
@@ -165,17 +134,6 @@ body {
   pointer-events: auto;
 }
 
-.glass-card-2 {
-  background: linear-gradient(144.39deg,
-    #fffffff1 -200.56%,
-    #6d6d6d3c -78.47%,
-    #11101d7d 91.61%);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-  border: 1px solid #fb923c; /* <-- orange from Tailwind config */
-  border-radius: 50px;
-}
-
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -212,26 +170,6 @@ body {
   100% {
     background-position: 200% 0;
   }
-}
-
-.logo-shimmer {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #fb923c, #f97316, #fb923c);
-  background-size: 400% auto;
-  animation: shimmer 3s linear infinite;
-
-  mask-image: url('/fulllogo_transparent.png');
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-size: contain;
-
-  -webkit-mask-image: url('/fulllogo_transparent.png');
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  -webkit-mask-size: contain;
-
-  background-clip: border-box;
 }
 
 input {

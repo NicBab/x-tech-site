@@ -35,7 +35,7 @@ module.exports = {
 
   // === Borders & Hover ===
   'border', 'border-1', 'border-orange', 'border-iconPurple',
-  'hover:border-blueText', 'hover:text-blueText',
+  'hover:border-black', 'hover:text-white',
 
   // === Display & Z-Index ===
   'z-[1]', 'z-[0]',
@@ -59,15 +59,11 @@ module.exports = {
         secondary: "#f97316",
         orange: "#fb923c",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimPurple: "rgba(106, 23, 250, 0.122)",
-        iconPurple: "#4b0082",
         blueText: "#33bbcf",
       },
       backgroundImage: {
         'black-gradient': 'linear-gradient(180deg, #000 0%, #222 100%)',
-        'binary-tunnel': "url('/binary_tunnel.png')",
         'CTA-texture': "url('/panel_door.JPG')"
-        // 'CTA-texture': "url('/modern-tech-binary.jpg')",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
