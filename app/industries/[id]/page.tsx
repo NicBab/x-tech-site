@@ -21,7 +21,7 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
   return (
     <>
       {/* Header with navigation arrows */}
-      <div className="flex items-center justify-between px-4 sm:px-10 mt-20">
+      <div className="flex items-center justify-between px-4 sm:px-10 mt-10">
         <Link
           href={prev.href}
           className="text-gray-600 hover:text-black transition"
@@ -29,9 +29,7 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
           <CircleChevronLeft size={40} />
         </Link>
 
-        <h1 className={`${styles.heading2} text-center`}>
-          {industry.title}
-        </h1>
+     
 
         <Link
           href={next.href}
@@ -40,6 +38,9 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
           <CircleChevronRight size={40} />
         </Link>
       </div>
+         <h1 className={`${styles.heading2} text-center`}>
+          {industry.title}
+        </h1>
 
       {/* Content section */}
       <section
@@ -59,7 +60,7 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
         </div>
 
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
-          <div className="max-w-[700px] min-w-[250px] m-10 z-2">
+          <div className="max-w-[700px] min-w-[250px] m-8 z-2">
             <div className="flex flex-wrap-row justify-between items-center w-full">
               <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
                 ...
