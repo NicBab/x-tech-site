@@ -74,9 +74,9 @@ const AboutPage = () => {
             </span>
           </div>
           <div className="md:flex flex-row relative z-[5]">
-            <Button href="/services" title="SERVICES" variant="buttonPrimary" />
+            <Button href="/servicespg" title="SERVICES" variant="buttonPrimary" />
             <Button
-              href="/contact"
+              href="/contactpg"
               title="CONTACT US"
               variant="buttonSecondary"
             />

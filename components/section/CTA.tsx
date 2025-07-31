@@ -23,7 +23,7 @@ const CTA = () => {
           {/* Button & Socials */}
           <div className={`${styles.flexCenter} flex-col sm:ml-10`}>
             <Button
-              href="/contact"
+              href="/contactpg"
               title="GET STARTED"
               variant="buttonPrimary"
             />

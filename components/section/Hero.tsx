@@ -44,12 +44,12 @@ const Hero = () => {
             </div>
             <div className="md:flex flex-row relative z-[5]">
               <Button
-                href="/services"
+                href="/servicespg"
                 title="SERVICES"
                 variant="buttonPrimary"
               />
               <Button
-                href="/contact"
+                href="/contactpg"
                 title="CONTACT US"
                 variant="buttonSecondary"
               />

@@ -42,11 +42,11 @@ const ServicesPage = () => {
           </div>
           <div className="md:flex flex-row relative z-[5]">
             <Button
-              href="/contact"
+              href="/contactpg"
               title="CONTACT US"
               variant="buttonPrimary"
             />
-            <Button href="/about" title="ABOUT US" variant="buttonSecondary" />
+            <Button href="/aboutpg" title="ABOUT US" variant="buttonSecondary" />
           </div>
         </div>
       </section>

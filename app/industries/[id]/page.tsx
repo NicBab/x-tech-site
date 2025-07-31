@@ -72,12 +72,12 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
 
           <div className="md:flex flex-row relative z-[5] gap-4">
             <Button
-              href="/contact"
+              href="/contactpg"
               title="CONTACT US"
               variant="buttonPrimary"
             />
             <Button
-              href="/about"
+              href="/aboutpg"
               title="ABOUT US"
               variant="buttonSecondary"
             />
