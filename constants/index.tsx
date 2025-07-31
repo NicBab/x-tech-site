@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/about", key: "about", label: "About" },
-  { href: "/services", key: "services", label: "Services" },
-  { href: "/contact", key: "contact", label: "Contact" },
-  { href: "/events", key: "events", label: "Events" },
+  { href: "/aboutpg", key: "about", label: "About" },
+  { href: "/servicespg", key: "services", label: "Services" },
+  { href: "/contactpg", key: "contact", label: "Contact" },
+  { href: "/eventspg", key: "events", label: "Events" },
 ];
 
 //SOCIAL MEDIA ICONS

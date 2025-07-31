@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import { Sec2CardInfo } from "@/constants/index";
 import {
   Card,
@@ -10,24 +10,60 @@ import {
   Box,
 } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
 import "swiper/css";
+import "swiper/css/navigation";
 
 export default function Sec2Card() {
+  // Refs for navigation buttons
+  const prevRef = useRef<HTMLDivElement | null>(null);
+  const nextRef = useRef<HTMLDivElement | null>(null);
+
   return (
     <Box
       component="section"
-      className="bg-black w-screen" 
+      className="bg-black w-screen relative"
       sx={{
-        minHeight: '50vh',   
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        minHeight: "50vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         px: 0,
         py: 10,
         m: 0,
       }}
     >
+      {/* Left Arrow */}
+      <div className="absolute top-0 w-full px-4 mt-8 flex justify-between z-10">
+        <div ref={prevRef} className="cursor-pointer">
+          <CircleChevronLeft
+            size={32}
+            className="text-white hover:text-orange-400 transition"
+          />
+        </div>
+
+        {/* Right Arrow */}
+        <div ref={nextRef} className="cursor-pointer">
+          <CircleChevronRight
+            size={32}
+            className="text-white hover:text-orange-400 transition"
+          />
+        </div>
+      </div>
+
       <Swiper
+        modules={[Navigation]}
+        onBeforeInit={(swiper) => {
+          // @ts-ignore
+          swiper.params.navigation.prevEl = prevRef.current;
+          // @ts-ignore
+          swiper.params.navigation.nextEl = nextRef.current;
+        }}
+        navigation={{
+          prevEl: prevRef.current,
+          nextEl: nextRef.current,
+        }}
         spaceBetween={20}
         slidesPerView={"auto"}
         grabCursor={true}
@@ -38,10 +74,7 @@ export default function Sec2Card() {
         }}
       >
         {Sec2CardInfo.map((info) => (
-          <SwiperSlide
-            key={info.id}
-            style={{ width: 280 }}
-          >
+          <SwiperSlide key={info.id} style={{ width: 280 }}>
             <Card
               sx={{
                 width: "100%",
@@ -50,7 +83,7 @@ export default function Sec2Card() {
                 flexDirection: "column",
                 justifyContent: "space-between",
                 backgroundColor: "#1a1a1a",
-                borderRadius: "4px"
+                borderRadius: "4px",
               }}
               elevation={4}
             >
