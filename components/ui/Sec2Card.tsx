@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -35,19 +35,19 @@ export default function Sec2Card() {
       }}
     >
       {/* Left Arrow */}
-      <div className="absolute top-0 w-full px-4 mt-8 flex justify-between z-10">
+      <div className="absolute top-0 w-full px-4 flex justify-between z-10">
         <div ref={prevRef} className="cursor-pointer">
-          <CircleChevronLeft
+          <ChevronLeft
             size={32}
-            className="text-white hover:text-orange-400 transition"
+            className="text-white hover:text-orange-400 transition m-8"
           />
         </div>
 
         {/* Right Arrow */}
         <div ref={nextRef} className="cursor-pointer">
-          <CircleChevronRight
+          <ChevronRight
             size={32}
-            className="text-white hover:text-orange-400 transition"
+            className="text-white hover:text-orange-400 transition m-8"
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ import { Sec1CardInfo } from "@/constants/index";
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Link from "next/link";
-import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function IndustriesPage({ params }: { params: { id: string } }) {
   const index = Sec1CardInfo.findIndex((item) => item.id === params.id);
@@ -20,24 +20,22 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
 
   return (
     <>
-      {/* Header with navigation arrows */}
-      <div className="flex items-center justify-between px-4 sm:px-10 mt-10">
+      {/* navigation arrows */}
+      <div className="flex items-center justify-between px-4 sm:px-10 mt-10 mb-10">
         <Link
           href={prev.href}
           className="text-gray-600 hover:text-black transition"
         >
-          <CircleChevronLeft size={40} />
+          <ChevronLeft size={40} />
         </Link>
-
-     
-
         <Link
           href={next.href}
           className="text-gray-600 hover:text-black transition"
         >
-          <CircleChevronRight size={40} />
+          <ChevronRight size={40} />
         </Link>
       </div>
+
          <h1 className={`${styles.heading2} text-center`}>
           {industry.title}
         </h1>
