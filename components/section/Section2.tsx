@@ -1,6 +1,6 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
-import Sec2Card from "./Sec2Card";
+import Sec2Card from "../ui/Sec2Card";
 
 const Section2 = () => {
   return (

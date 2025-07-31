@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles from "@/style";
 import { Button, Socials } from "@/components";
 
 const CTA = () => {
