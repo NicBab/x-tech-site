@@ -25,10 +25,11 @@ const Hero = () => {
           <div className={`flex ${styles.flexCenter} md:my-0 relative p-2`}>
             <Image
               src="/X_grey_logo.png"
-              alt="logo"
+              alt="X_logo"
               width={800}
               height={800}
               className="relative z-[2]"
+              unoptimized
             />
           </div>
           <div className="max-w-[500px] min-w-[250px] m-5 z-2">

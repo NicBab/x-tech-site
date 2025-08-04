@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Head from "next/head";
 import "./globals.css";
 import { Navbar, Footer, PhoneNumber } from "@/components/index";
-import { Amatic_SC } from "next/font/google";
+import { Roboto } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import styles from "@/style";
 
@@ -14,10 +14,10 @@ export const metadata: Metadata = {
   },
 };
 
-const amatic = Amatic_SC({
+const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-Amatic_SC",
+  variable: "--font-Roboto",
 });
 
 export default function RootLayout({
@@ -27,9 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body>
-     
+      <body className={`${roboto.className}`}>
         <div className="bg-black w-full">
           <PhoneNumber />
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -38,10 +36,12 @@ export default function RootLayout({
             </div>
           </div>
         </div>
-        <main className={`${amatic.variable} relative overflow-hidden bg-white`}>
+        <main
+          className={`relative overflow-hidden bg-white`}
+        >
           {children}
         </main>
-       
+
         <div className={`${styles.paddingX} ${styles.flexCenter} bg-black`}>
           <div className={`${styles.boxWidth}`}>
             <Footer />

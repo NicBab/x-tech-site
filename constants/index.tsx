@@ -167,7 +167,7 @@ Our adept professionals, well-versed in the art of project coordination and reso
     title: "Commissioning and Startup",
     icon: "/X_icon.png",
     href: "/service/commissioning",
-    desc: "Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
+    desc: "Our specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
     desc2: `Our Commissioning and Startup service ensures that all control systems are correctly installed and are running as expected. Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency. We guarantee that your control system will be ready to use after our Commissioning and Startup service.`
   },
 ];

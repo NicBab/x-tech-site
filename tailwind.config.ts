@@ -65,9 +65,9 @@ module.exports = {
         'black-gradient': 'linear-gradient(180deg, #000 0%, #222 100%)',
         'CTA-texture': "url('/panel_door.JPG')"
       },
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-      },
+      // fontFamily: {
+      //   poppins: ["Poppins", "sans-serif"],
+      // },
        keyframes: {
         scrollX: {
           '0%': { transform: 'translateX(0%)' },
