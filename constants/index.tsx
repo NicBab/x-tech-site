@@ -175,21 +175,24 @@ Our adept professionals, well-versed in the art of project coordination and reso
 //SECTION 3
 export const Sec3CardInfo = [
   {
-    id: "feature-1",
+    id: "engineering-design",
+    href: "/extend-service/engineering-design",
     icon: "/X_icon.png",
     title: "Engineering & Design",
     content:
       "From concept to execution, we develop solutions that are not only functional and efficient but also scalable and tailored to real-world applications. ",
   },
   {
-    id: "feature-2",
+    id: "integration-development",
+    href: "/extend-service/integration-development",
     icon: "/X_icon.png",
     title: "Integration & Development",
     content:
       "Bringing software, hardware and communications together into seamless, high-performance solutions. We streamline workflows, connect technologies, and build tools that drive efficiency and innovation.",
   },
   {
-    id: "feature-3",
+    id: "field-services",
+    href: "/extend-service/field-services",
     icon: "/X_icon.png",
     title: "Field Services",
     content:
