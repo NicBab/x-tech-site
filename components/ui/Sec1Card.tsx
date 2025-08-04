@@ -31,7 +31,7 @@ export default function Sec1Card() {
           <Card
             sx={{
               width: 280,
-              height: 300,
+              height: 200,
               flex: "0 0 auto",
               display: "flex",
               flexDirection: "column",
@@ -87,7 +87,7 @@ export default function Sec1Card() {
                   component="div"
                   sx={{
                     fontWeight: 600,
-                    fontSize: 16,
+                    fontSize: 18,
                     lineHeight: 1.2, // tighter line spacing
                     maxHeight: "3.5em",
                     overflow: "hidden",

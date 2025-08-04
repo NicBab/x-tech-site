@@ -2,6 +2,7 @@ import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import { Sec2CardInfo } from "@/constants/index";
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesPage = () => {
   return (
@@ -21,7 +22,7 @@ const ServicesPage = () => {
               alt="X_technician"
               width={300}
               height={240}
-              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 shadow"
+              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8"
             />
           </div>
         </div>
@@ -60,6 +61,7 @@ const ServicesPage = () => {
               {Sec2CardInfo.map((info) => (
                 <FeatureItem
                   key={info.title}
+                  href={info.href}
                   title={info.title}
                   icon={info.icon}
                   description={info.desc}
@@ -75,13 +77,15 @@ const ServicesPage = () => {
 
 type FeatureItem = {
   title: string;
+  href: string
   icon: string;
   description: string;
 };
 
-const FeatureItem = ({ title, icon, description }: FeatureItem) => {
+const FeatureItem = ({ title, href, icon, description }: FeatureItem) => {
   return (
-    <li className="flex w-full flex-1 flex-col items-center p-5 rounded-[10px] form-card">
+    <Link href={href} className="w-full">
+     <li className="flex w-full flex-1 flex-col items-center p-5 rounded-[10px] form-card">
       <div className="rounded-full">
         <Image src={icon} alt="map" width={50} height={50} />
       </div>
@@ -91,6 +95,8 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       </h2>
       <p className={`${styles.paragraph} text-black`}>{description}</p>
     </li>
+    </Link>
+   
   );
 };
 

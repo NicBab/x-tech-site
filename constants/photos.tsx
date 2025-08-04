@@ -14,11 +14,6 @@ export const PHOTOS = [
     src: "/vfd_skid.JPG",
     alt: "vfd_skid",
   },
-    {
-    id: "hero-photo-4",
-    src: "/X_technician.png",
-    alt: "X_technician",
-  },
 ];
 
 

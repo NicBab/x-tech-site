@@ -14,6 +14,7 @@ import { Navigation } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
+import Link from "next/link";
 
 export default function Sec2Card() {
   // Refs for navigation buttons
@@ -75,44 +76,54 @@ export default function Sec2Card() {
       >
         {Sec2CardInfo.map((info) => (
           <SwiperSlide key={info.id} style={{ width: 280 }}>
-            <Card
-              sx={{
-                width: "100%",
-                height: 300,
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-                backgroundColor: "#1a1a1a",
-                borderRadius: "4px",
-              }}
-              elevation={4}
+            <Link
+              href={info.href}
+              key={info.id}
+              style={{ textDecoration: "none" }}
             >
-              <CardActionArea sx={{ height: "100%" }}>
-                <Box sx={{ px: 2, pt: 2 }}>
-                  <Typography
-                    variant="h6"
-                    component="div"
-                    align="center"
-                    className="orange-text-gradient"
-                  >
-                    {info.title}
-                  </Typography>
-                </Box>
+              <Card
+                sx={{
+                  width: "100%",
+                  height: 250,
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                  backgroundColor: "#1a1a1a",
+                  borderRadius: 2,
+                  transition: "transform 0.2s ease-in-out",
+                  "&:hover": {
+                    transform: "scale(1.02)",
+                  },
+                }}
+                elevation={4}
+              >
+                <CardActionArea sx={{ height: "100%" }}>
+                  <Box sx={{ px: 2, pt: 2 }}>
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      align="center"
+                      className="orange-text-gradient"
+                    >
+                      {info.title}
+                    </Typography>
+                  </Box>
 
-                <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography
-                    variant="body2"
-                    sx={{
-                      color: "rgba(255, 255, 255, 0.7)",
-                      textAlign: "center",
-                      mt: 1,
-                    }}
-                  >
-                    {info.desc}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+                  <CardContent sx={{ flexGrow: 1 }}>
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        color: "rgba(255, 255, 255, 0.7)",
+                        textAlign: "center",
+                        mt: 1,
+                      }}
+                    >
+                      {info.desc}
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -99,67 +99,76 @@ export const Sec1CardInfo = [
 //SECTION 2
 export const Sec2CardInfo = [
   {
-    id: "stat-1",
+    id: "automation-solutions",
     src: "",
     alt: "",
     title: "Automation Solutions",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/automation-solutions",
     desc: "We provide customized solutions that integrate with your existing system and improve your overall workflow.",
+    desc2: `XTechnology offers automation solutions that increase the efficiency and productivity of your operations. Our automation systems are designed to streamline your processes and reduce manual labor. We provide customized solutions that integrate with your existing system and improve your overall workflow.`
+    
   },
   {
-    id: "stat-2",
+    id: "control-system",
     src: "",
     alt: "",
-    title: "Control System Design and Implementation",
+    title: "Control System Design",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/control-system",
     desc: "Our systems are designed to be user-friendly, easy to maintain, and reliable in any environment.",
+    desc2: `We specialize in control system design and implementation, providing complete turnkey solutions. Our team of experts will work with you to develop a system that meets your requirements and specifications, ensuring reliable, efficient, and cost-effective operation. Our systems are designed to be user-friendly, easy to maintain, and reliable in any environment.`
   },
   {
-    id: "stat-3",
+    id: "scada",
     src: "",
     alt: "",
-    title: "Supervisory Controls And Data Acquisition",
+    title: "SCADA",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/scada",
     desc: "Businesses can monitor and manage their operations from anywhere in the world.",
+    desc2: `SCADA is an advanced technology that enables remote monitoring and control of industrial processes. It provides real-time data acquisition, advanced analytics, and automated control of processes, allowing businesses to increase efficiency and productivity. With SCADA, businesses can monitor and manage their operations from anywhere in the world.`
   },
   {
-    id: "stat-4",
+    id: "project-management",
     src: "",
     alt: "",
     title: "Project Management",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/project-management",
     desc: "Our team streamlines workflows, manages resources effectively, and tailors each project to fit your infrastructure.",
+    desc2: `At XTechnology, we comprehend the significance of staying ahead in the rapidly evolving automation landscape. Utilizing cutting-edge tools and employing innovative strategies, we navigate the complexities of project management, guaranteeing optimal outcomes and enhanced productivity.
+Our adept professionals, well-versed in the art of project coordination and resource allocation, employ a thorough approach to streamline workflows, minimize risks, and deliver projects within stipulated timelines and budgets. We adapt to the unique requirements of your organization, ensuring seamless integration of automation solutions into your existing infrastructure.`
   },
   {
-    id: "stat-5",
+    id: "consulting",
     src: "",
     alt: "",
     title: "Consulting",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/consulting",
     desc: "Our experienced staff can help you identify the right technologies to optimize your operations and maximize your resources.",
+    desc2: `Our Consulting service provides expert advice on the best solutions for your organization. Our experienced staff can help you identify the right technologies to optimize your operations and maximize your resources. We offer tailored strategies to ensure your automation project is successful and cost-effective.`
   },
   {
-    id: "stat-6",
+    id: "power-generation",
     src: "",
     alt: "",
     title: "Power Generation and Engine Control",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/power-generation",
     desc: "Our team will work with you to design and implement a custom solution to ensure your operations remain efficient and reliable.",
+    desc2: `We provide custom packages for power generation and engine control systems that can help you optimize your production. Our experienced team will work with you to design and implement a custom solution to ensure your operations remain efficient and reliable. Our solutions are designed to maximize efficiency while minimizing downtime and maintenance costs.`
   },
   {
-    id: "stat-7",
+    id: "commissioning",
     src: "",
     alt: "",
     title: "Commissioning and Startup",
     icon: "/X_icon.png",
-    variant: "",
+    href: "/service/commissioning",
     desc: "Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
+    desc2: `Our Commissioning and Startup service ensures that all control systems are correctly installed and are running as expected. Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency. We guarantee that your control system will be ready to use after our Commissioning and Startup service.`
   },
 ];
 

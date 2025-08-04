@@ -2,21 +2,21 @@
 
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { Sec1CardInfo } from "@/constants/index";
+import { Sec2CardInfo } from "@/constants/index";
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-export default function IndustriesPage({ params }: { params: { id: string } }) {
-  const index = Sec1CardInfo.findIndex((item) => item.id === params.id);
-  const industry = Sec1CardInfo[index];
+export default function ServicePage({ params }: { params: { id: string } }) {
+  const index = Sec2CardInfo.findIndex((item) => item.id === params.id);
+  const service = Sec2CardInfo[index];
 
-  if (!industry) return notFound();
+  if (!service) return notFound();
 
   // Circular wrap-around navigation
-  const prev = Sec1CardInfo[(index - 1 + Sec1CardInfo.length) % Sec1CardInfo.length];
-  const next = Sec1CardInfo[(index + 1) % Sec1CardInfo.length];
+  const prev = Sec2CardInfo[(index - 1 + Sec2CardInfo.length) % Sec2CardInfo.length];
+  const next = Sec2CardInfo[(index + 1) % Sec2CardInfo.length];
 
   return (
     <>
@@ -37,24 +37,24 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
       </div>
 
          <h1 className={`${styles.heading2} text-center`}>
-          {industry.title}
+          {service.title}
         </h1>
 
       {/* Content section */}
       <section
-        id="industrysPage"
+        id="ServicePage"
         className={`${styles.margins} flex md:flex-row flex-col`}
       >
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
-          <div className={`${styles.flexCenter} overflow-hidden`}>
+          {/* <div className={`${styles.flexCenter} overflow-hidden`}>
             <Image
-              src={industry.src}
-              alt={industry.alt}
+              src={service.src}
+              alt={service.alt}
               width={300}
               height={250}
               className="sm:w-[550px] sm:h-[380px] relative object-cover z-[3] mb-8 rounded-lg"
             />
-          </div>
+          </div> */}
         </div>
 
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
@@ -65,7 +65,7 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
               </h2>
             </div>
             <span className={`${styles.paragraph} text-black object-cover`}>
-              {industry.desc}
+              {service.desc2}
             </span>
           </div>
 

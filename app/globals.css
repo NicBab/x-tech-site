@@ -23,6 +23,7 @@ body {
 
 .shadow {
   box-shadow: -2px 5px 8px 2px rgba(0, 0, 3, 0.999);
+  border-radius: 8px;
 }
 
 .transform:hover {
@@ -73,28 +74,9 @@ body {
   text-fill-color: transparent;
 }
 
-.blue-text-gradient {
-  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-      #def9fa 0.89%,
-      #bef3f5 17.23%,
-      #9dedf0 42.04%,
-      #7de7eb 55.12%,
-      #5ce1e6 71.54%,
-      #33bbcf 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
 .orange__gradient {
   background: linear-gradient(180deg, rgba(255, 213, 153, 0) 0%, #fca85d 100%);
   filter: blur(300px);
-}
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
 }
 
 .cards {
@@ -129,7 +111,7 @@ body {
     #11101d7d 91.61%);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(3px);
-  /*border: 1px solid #fb923c; /* <-- orange from Tailwind config */
+  border: 1px solid #fb923c;
   border-radius: 10px;
   pointer-events: auto;
 }
@@ -160,15 +142,6 @@ body {
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
   }
 }
 
