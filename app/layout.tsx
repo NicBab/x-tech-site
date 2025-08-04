@@ -5,6 +5,7 @@ import { Navbar, Footer, PhoneNumber } from "@/components/index";
 import { Roboto } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import styles from "@/style";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "X Technology-USA",
@@ -28,6 +29,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className}`}>
+        <Toaster position="top-center" reverseOrder={false} />
+
         <div className="bg-black w-full">
           <PhoneNumber />
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -36,9 +39,8 @@ export default function RootLayout({
             </div>
           </div>
         </div>
-        <main
-          className={`relative overflow-hidden bg-white`}
-        >
+
+        <main className="relative overflow-hidden bg-white">
           {children}
         </main>
 
@@ -47,6 +49,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </div>
+
         <SpeedInsights />
       </body>
     </html>

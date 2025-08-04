@@ -30,15 +30,14 @@ const ServicesPage = () => {
           <div className="max-w-[700px] min-w-[250px] m-10 z-2">
             <div className="flex flex-wrap-row justify-between items-center w-full">
               <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
-                Customized
-              solutions....
+                Customized solutions....
                 <br className="sm:block " />
               </h2>
             </div>
             <span className={`${styles.paragraph} text-black`}>
-              We place your satisfaction at the forefront our
-              efforts. We work hand-in-hand with you to gain a deep
-              understanding of specific needs of your business.
+              We place your satisfaction at the forefront our efforts. We work
+              hand-in-hand with you to gain a deep understanding of specific
+              needs of your business.
             </span>
           </div>
           <div className="md:flex flex-row relative z-[5]">
@@ -47,7 +46,11 @@ const ServicesPage = () => {
               title="CONTACT US"
               variant="buttonPrimary"
             />
-            <Button href="/aboutpg" title="ABOUT US" variant="buttonSecondary" />
+            <Button
+              href="/aboutpg"
+              title="ABOUT US"
+              variant="buttonSecondary"
+            />
           </div>
         </div>
       </section>
@@ -77,7 +80,7 @@ const ServicesPage = () => {
 
 type FeatureItem = {
   title: string;
-  href: string
+  href: string;
   icon: string;
   description: string;
 };
@@ -92,18 +95,13 @@ const FeatureItem = ({ title, href, icon, description }: FeatureItem) => {
         <div className="mb-3">
           <Image src={icon} alt={title} width={50} height={50} />
         </div>
-
         <h2 className="font-poppins font-semibold orange-text-gradient text-[20px] leading-tight mb-2">
           {title}
         </h2>
-
-        <p className={`${styles.paragraph} text-black`}>
-          {description}
-        </p>
+        <p className={`${styles.paragraph} text-black`}>{description}</p>
       </Link>
     </li>
   );
 };
-
 
 export default ServicesPage;
