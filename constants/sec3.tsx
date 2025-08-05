@@ -14,7 +14,7 @@ export const Sec3CardInfo = [
     icon: "/X_icon.png",
     title: "Integration & Development",
     content:
-      "Bringing software, hardware and communications together into seamless, high-performance solutions. We streamline workflows, connect technologies, and build tools that drive efficiency and innovation.",
+      "Bringing software, hardware and communications together into seamless, high-performance solutions. We streamline workflows, connect technologies, and build tools that drive innovation.",
   },
   {
     id: "field-services",

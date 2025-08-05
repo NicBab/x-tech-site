@@ -44,7 +44,7 @@ module.exports = {
   'rounded-full',
 
   // === Responsive Screens ===
-  'xs:text-[40px]', 'xs:text-[48px]', 'xs:leading-[85px]', 'md:text-[12px]',
+  'xs:text-[40px]', 'xs:text-[48px]', 'xs:leading-[85px]', 'sm:text-[14px', 'md:text-[12px]',
 
   // === Animation & Sidebar ===
   'sidebar', 'transform', 'hover:transform', 'scale-[1.01]',
