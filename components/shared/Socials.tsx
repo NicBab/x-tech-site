@@ -1,5 +1,5 @@
 "use client";
-import { SOCIALS_ICONS } from "@/constants";
+import { SOCIALS_ICONS } from "@/constants/socials";
 import Image from "next/image";
 
 type SocialsProps = {

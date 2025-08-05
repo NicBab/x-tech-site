@@ -8,20 +8,20 @@ const Section3 = () => {
       id="Section3"
       className={`${layout.section} ${styles.margins} relative`}
     >
-      <div className={`${layout.sectionInfo} z-[4] mx-2`}>
+      <div className={`${layout.sectionInfo} z-[4] sm:mb-10`}>
         <Sec3Card />
       </div>
-      <div className={`${layout.sectionInfo} m-10`}>
+      <div className={`${layout.sectionInfo} mt-10 sm:mb-10`}>
         <h2 className={`${styles.heading2} ${styles.flexCenter}`}>
           <br className="sm:block hidden" />
           Your success is our mission.
         </h2>
-        <div className={`max-w-[700px]`}>
-          <div className={`${styles.paragraph}`}>
-            We prioritize your goals through close collaboration and tailored
-            solutions. Our team is dedicated to boosting efficiency and ROI
-          </div>
+
+        <div className={`${styles.paragraph} max-w-[700px]`}>
+          We prioritize your goals through close collaboration and tailored
+          solutions. Our team is dedicated to boosting efficiency and ROI
         </div>
+
         <div className="md:flex flex-row relative z-[5]">
           <Button href="/aboutpg" title="ABOUT US" variant="buttonPrimary" />
           <Button

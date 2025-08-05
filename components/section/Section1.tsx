@@ -5,9 +5,9 @@ import Sec1Card from "../ui/Sec1Card";
 const Section1 = () => {
   return (
     <section className={`${styles.margins} relative`}>
-      <h2 className={`${styles.heading2} my-10`}>
+      <h1 className={`${styles.heading2} my-10`}>
         Complete Control Solutions...
-      </h2>
+      </h1>
       <Sec1Card />
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}></div>
       <div className={`${layout.sectionInfo}`}>
@@ -17,7 +17,11 @@ const Section1 = () => {
           and growth.
         </div>
         <div className="md:flex flex-row relative z-[50]">
-          <Button href="/aboutpg" title="MORE ABOUT US" variant="buttonPrimary" />
+          <Button
+            href="/aboutpg"
+            title="MORE ABOUT US"
+            variant="buttonPrimary"
+          />
           <Button
             href="/contactpg"
             title="CONTACT US"

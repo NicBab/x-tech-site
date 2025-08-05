@@ -1,4 +1,4 @@
-export const PHOTOS = [
+export const HeroPhotos = [
   {
     id: "hero-photo-1",
     src: "/panel_door.JPG",

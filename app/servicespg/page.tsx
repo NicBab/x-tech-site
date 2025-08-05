@@ -1,6 +1,6 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
-import { Sec2CardInfo } from "@/constants/index";
+import { Sec2CardInfo } from "@/constants/sec2";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,6 +22,7 @@ const ServicesPage = () => {
               alt="X_technician"
               width={300}
               height={240}
+              unoptimized
               className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8"
             />
           </div>

@@ -9,7 +9,7 @@ import {
   CardActionArea,
   Box,
 } from "@mui/material";
-import { Sec3CardInfo } from "@/constants/index";
+import { Sec3CardInfo } from "@/constants/sec3";
 import Link from "next/link";
 
 export default function Sec3Card() {
@@ -39,7 +39,7 @@ export default function Sec3Card() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "flex-start",
-              borderRadius: 2,
+              borderRadius: "4px",
               overflow: "hidden",
             }}
             elevation={4}

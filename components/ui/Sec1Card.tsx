@@ -10,7 +10,7 @@ import {
   CardActionArea,
   Box,
 } from "@mui/material";
-import { Sec1CardInfo } from "@/constants/index";
+import { Sec1CardInfo } from "@/constants/sec1";
 
 export default function Sec1Card() {
   return (
@@ -37,7 +37,7 @@ export default function Sec1Card() {
               flexDirection: "column",
               justifyContent: "flex-start",
               overflow: "hidden",
-              borderRadius: 2,
+              borderRadius: "4px",
               p: 0,
               transition: "transform 0.2s ease-in-out",
               "&:hover": {

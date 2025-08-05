@@ -48,6 +48,7 @@ const AboutPage = () => {
               alt="HMI_technician"
               width={300}
               height={240}
+              unoptimized
               className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8"
             />
           </div>

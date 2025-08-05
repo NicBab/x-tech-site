@@ -2,7 +2,7 @@
 
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { Sec1CardInfo } from "@/constants/index";
+import { Sec1CardInfo } from "@/constants/sec1";
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Link from "next/link";
@@ -15,7 +15,8 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
   if (!industry) return notFound();
 
   // Circular wrap-around navigation
-  const prev = Sec1CardInfo[(index - 1 + Sec1CardInfo.length) % Sec1CardInfo.length];
+  const prev =
+    Sec1CardInfo[(index - 1 + Sec1CardInfo.length) % Sec1CardInfo.length];
   const next = Sec1CardInfo[(index + 1) % Sec1CardInfo.length];
 
   return (
@@ -36,9 +37,7 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
         </Link>
       </div>
 
-         <h1 className={`${styles.heading2} text-center`}>
-          {industry.title}
-        </h1>
+      <h1 className={`${styles.heading2} text-center`}>{industry.title}</h1>
 
       {/* Content section */}
       <section
@@ -59,11 +58,6 @@ export default function IndustriesPage({ params }: { params: { id: string } }) {
 
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
           <div className="max-w-[700px] min-w-[250px] m-8 z-2">
-            <div className="flex flex-wrap-row justify-between items-center w-full overflow-hidden">
-              <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
-                ...
-              </h2>
-            </div>
             <span className={`${styles.paragraph} text-black object-cover`}>
               {industry.desc}
             </span>

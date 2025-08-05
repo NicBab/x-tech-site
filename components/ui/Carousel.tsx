@@ -3,7 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import {PHOTOS} from "@/constants/photos";
+import { HeroPhotos } from "@/constants/hero-photos";
 
 export interface photo {
   id: string;
@@ -20,7 +20,7 @@ const Carousel = () => {
       speed={1500}
       className="w-full h-full rounded-xl overflow-hidden"
     >
-      {PHOTOS.map((photo: photo) => (
+      {HeroPhotos.map((photo: photo) => (
         <SwiperSlide key={`${photo.id}`}>
           <img
             src={photo.src}

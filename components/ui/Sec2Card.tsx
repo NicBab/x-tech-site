@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef } from "react";
-import { Sec2CardInfo } from "@/constants/index";
+import { Sec2CardInfo } from "@/constants/sec2";
 import {
   Card,
   CardContent,
@@ -89,7 +89,7 @@ export default function Sec2Card() {
                   flexDirection: "column",
                   justifyContent: "space-between",
                   backgroundColor: "#1a1a1a",
-                  borderRadius: 2,
+                  borderRadius: "4px",
                   transition: "transform 0.2s ease-in-out",
                   "&:hover": {
                     transform: "scale(1.02)",

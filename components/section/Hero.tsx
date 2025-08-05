@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "@/style";
-import { Button, Carousel, PhoneNumber } from "@/components";
+import { Button, Carousel } from "@/components";
 const Hero = () => {
   return (
     <section className="relative w-full overflow-hidden">

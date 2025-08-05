@@ -2,7 +2,7 @@
 
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { Sec3CardInfo } from "@/constants/index";
+import { Sec3CardInfo } from "@/constants/sec3";
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Link from "next/link";
@@ -59,11 +59,11 @@ export default function ExtendServicePage({ params }: { params: { id: string } }
 
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
           <div className="max-w-[700px] min-w-[250px] m-8 z-2">
-            <div className="flex flex-wrap-row justify-between items-center w-full overflow-hidden">
+            {/* <div className="flex flex-wrap-row justify-between items-center w-full overflow-hidden">
               <h2 className="flex-1 mb-2 font-poppins font-semibold ss:text-[25px] text-[18px] text-black ss:leading-[40px] leading-[40px]">
                 ...
               </h2>
-            </div>
+            </div> */}
             <span className={`${styles.paragraph} text-black object-cover`}>
               {service.content}
             </span>
