@@ -103,7 +103,7 @@ export default function Sec2Card() {
                       variant="h6"
                       component="div"
                       align="center"
-                      className="orange-text-gradient"
+                      className="text-orange"
                     >
                       {info.title}
                     </Typography>

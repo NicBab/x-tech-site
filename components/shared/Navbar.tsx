@@ -65,7 +65,7 @@ const Navbar = () => {
               }`}
             >
               <Link href={link.href}>
-                <span className="hover-orange-text-gradient transition-all duration-200">
+                <span className="hover-text-orange transition-all duration-200">
                   {link.label}
                 </span>
               </Link>

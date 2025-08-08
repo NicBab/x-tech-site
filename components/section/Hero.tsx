@@ -33,7 +33,7 @@ const Hero = () => {
             />
           </div>
           <div className="max-w-[500px] min-w-[250px] m-5 z-2">
-            <span className="ss:text-[50px] text-[40px] orange-text-gradient">
+            <span className="ss:text-[50px] text-[40px] text-orange">
               Ready to Optimize Your Control Systems?
             </span>
             <br className="sm:block" />

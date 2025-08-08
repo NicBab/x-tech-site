@@ -81,7 +81,7 @@ export default function Sec3Card() {
 
               <CardContent sx={{ flex: 1, pl: 0 }}>
                 <Typography
-                  className="orange-text-gradient"
+                  className="text-orange"
                   variant="h5"
                   component="div"
                   sx={{ fontWeight: 600, mb: 1 }}

@@ -24,7 +24,7 @@ const ContactPage = () => {
             </h1>
             <br className="sm:block" />
             <div className="max-w-[700px] min-w-[250px] z-2 flex justify-center">
-              <span className={`${styles.paragraph} orange-text-gradient`}>
+              <span className={`${styles.paragraph} text-orange`}>
                 Fill out the form and we will get back to you!
               </span>
             </div>

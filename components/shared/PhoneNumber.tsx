@@ -5,7 +5,7 @@ const PhoneNumber = () => {
     <>
       <div className="relative z-3">
         <div className="text-sm font-semibold text-center pt-5">
-          <span className="orange-text-gradient text-[20px] ss:text-[35px]">
+          <span className="text-orange text-[20px] ss:text-[35px]">
             {" "}
             1 (337) 326-5570{" "}
           </span>
