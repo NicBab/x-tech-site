@@ -29,6 +29,7 @@ const Hero = () => {
               width={800}
               height={800}
               className="relative z-[2]"
+              priority
               unoptimized
             />
           </div>
