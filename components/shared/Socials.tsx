@@ -1,28 +1,28 @@
+// components/Socials.tsx
 "use client";
+import React from "react";
 import { SOCIALS_ICONS } from "@/constants/socials";
-import Image from "next/image";
 
-type SocialsProps = {
-  className?: string;
-};
-const Socials = ({ className }: SocialsProps) => {
+type Props = { className?: string };
+
+export default function Socials({ className = "" }: Props) {
   return (
-    <div className="flex flex-row md:mt-0 ml-5">
-      {SOCIALS_ICONS.map((link, index) => (
-        <Image
-          src={link.icon}
-          alt={link.title}
-          key={link.title}
-          width={21}
-          height={21}
-          className={`w-[21px] h-[21px] object-contain cursor-pointer text-white ${
-            index !== SOCIALS_ICONS.length - 1 ? "mr-6" : "mr-0"
-          }`}
-          onClick={() => window.open(link.href)}
-        />
+    <div className={`flex flex-row md:mt-0 ml-5 ${className}`}>
+      {SOCIALS_ICONS.map(({ title, href, Icon, color }, i) => (
+        <a
+          key={title}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={title}
+          className={`inline-flex items-center ${i !== SOCIALS_ICONS.length - 1 ? "mr-6" : "mr-0"}`}
+        >
+          {/* Size via font-size, hard color via htmlColor so navbar styles can't override */}
+          <span className="inline-flex text-[24px] leading-none">
+            <Icon fontSize="inherit" htmlColor={color} />
+          </span>
+        </a>
       ))}
     </div>
   );
-};
-
-export default Socials;
+}

@@ -23,7 +23,7 @@ const Navbar = () => {
           className="w-[50px] h-[35px]"
         />
       </Link>
-      <Socials className="" />
+      <Socials />
       {/* Desktop nav */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {NAV_LINKS.map((link, index) => (
