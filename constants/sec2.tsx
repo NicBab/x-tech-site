@@ -78,7 +78,7 @@ export const Sec2CardInfo = [
     title: "Commissioning and Startup",
     icon: "/X_icon.png",
     href: "/service/commissioning",
-    desc: "Our specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
+    desc: "We provide the necessary adjustments to get your system up and running with maximum efficiency.",
     desc2: `Our Commissioning and Startup service ensures that all control systems are correctly installed and are running as expected. Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency. We guarantee that your control system will be ready to use after our Commissioning and Startup service.`,
   },
   {
@@ -88,8 +88,8 @@ export const Sec2CardInfo = [
     title: "I&E Services ",
     icon: "/X_icon.png",
     href: "/service/i-e-services",
-    desc: "Our I & E services deliver robust, high-performance control systems with a focus on precision and quality.",
-    desc2: `high-performance control systems with a focus on precision and quality. Our expertise includes: Panel Manufacturing & System Fabrication, Precise Tubing & Cable Installation and Termination, Process & Subsea Control System Installations, Nationwide & Offshore Service Availability`,
+    desc: "Robust, high-performance control systems with a focus on precision and quality.",
+    desc2: `Our I & E services deliver robust, high-performance control systems with a focus on precision and quality. Our expertise includes: Panel Manufacturing & System Fabrication, Precise Tubing & Cable Installation and Termination, Process & Subsea Control System Installations, Nationwide & Offshore Service Availability`,
   },
   {
     id: "service-call-outs",
@@ -98,7 +98,7 @@ export const Sec2CardInfo = [
     title: "Service Call-Outs",
     icon: "/X_icon.png",
     href: "/service/service-call-outs",
-    desc: "Our team provides rapid, reliable on-demand support to resolve your critical system issues, from emergency call-outs to long-term maintenance, ensuring your operations get back online efficiently.",
+    desc: "Our team provides rapid, reliable on-demand support to resolve your critical system issues.",
     desc2: `Our team provides rapid, reliable on-demand support to resolve your critical system issues, from emergency call-outs to long-term maintenance, ensuring your operations get back online efficiently.`,
   },
 ];
