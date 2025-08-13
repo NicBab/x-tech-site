@@ -28,9 +28,8 @@ const Hero = () => {
               alt="X_logo"
               width={800}
               height={800}
-              className="relative z-[2]"
+              className="relative z-[2] w-auto h-auto"
               priority
-              unoptimized
             />
           </div>
           <div className="max-w-[500px] min-w-[250px] m-5 z-2">

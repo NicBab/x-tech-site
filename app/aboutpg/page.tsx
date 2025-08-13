@@ -1,6 +1,17 @@
 import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About X Technology-USA",
+  description: "Learn about X Technology-USA, a leading industrial automation consulting company with over 100 years of combined experience in SCADA systems and control solutions.",
+  openGraph: {
+    title: "About X Technology-USA | Industrial Automation Experts",
+    description: "Learn about X Technology-USA, a leading industrial automation consulting company with over 100 years of combined experience in SCADA systems and control solutions.",
+    images: ["/HMI_technician.png"],
+  },
+};
 
 const AboutPage = () => {
   return (
@@ -46,10 +57,9 @@ const AboutPage = () => {
             <Image
               src="/HMI_technician.png"
               alt="HMI_technician"
-              width={300}
-              height={240}
-              unoptimized
-              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8"
+              width={400}
+              height={380}
+              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 w-auto h-auto"
             />
           </div>
         </div>

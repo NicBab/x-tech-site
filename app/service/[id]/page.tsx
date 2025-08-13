@@ -1,5 +1,3 @@
-"use client";
-
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { Sec2CardInfo } from "@/constants/sec2";
@@ -7,6 +5,33 @@ import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import type { Metadata } from "next";
+
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const service = Sec2CardInfo.find((item) => item.id === params.id);
+  
+  if (!service) {
+    return {
+      title: "Service Not Found",
+    };
+  }
+
+  return {
+    title: `${service.title} Services`,
+    description: service.desc2,
+    openGraph: {
+      title: `${service.title} Services | X Technology-USA`,
+      description: service.desc2,
+      images: ["/X_grey_logo.png"],
+    },
+  };
+}
+
+export async function generateStaticParams() {
+  return Sec2CardInfo.map((service) => ({
+    id: service.id,
+  }));
+}
 
 export default function ServicePage({ params }: { params: { id: string } }) {
   const index = Sec2CardInfo.findIndex((item) => item.id === params.id);
