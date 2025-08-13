@@ -2,19 +2,25 @@
 export const FOOTER_LINKS = [
   {
     title: "Learn More:",
-    links: ["About", "Jobs"],
+    links: [
+      { title: "About", href: "/aboutpg" },
+      { title: "Careers", href: "/careers" },
+    ],
   },
   {
     title: "Our Community:",
-    links: ["Our Team", "History"],
+    links: [
+      { title: "Our Team", href: "/our-team" },
+      { title: "History", href: "/history" },
+    ],
   },
-];
+] as const;
 
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us:",
   links: [
     { label: "Office", value: "(337) 326-5570" },
-    { label: "Email", value: "info@xtechnology-usa.com" },
+    { label: "Email", value: "website@xtechnology-usa.com" },
     { label: "Address", value: "202 Magnate Dr. suite-B, Lafayette, La" },
   ],
 };

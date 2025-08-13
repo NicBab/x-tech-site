@@ -27,17 +27,19 @@ const Footer = () => {
             <Image src="/X_grey_logo.png" alt="X_icon" width={100} height={100} />
           </Link>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 text-white">
-            {FOOTER_LINKS.map((columns) => (
-              <FooterColumn title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-dimWhite">
-                  {columns.links.map((link) => (
-                    <Link href="/" key={link}>
-                      {link}
-                    </Link>
-                  ))}
-                </ul>
-              </FooterColumn>
-            ))}
+{FOOTER_LINKS.map((columns) => (
+  <FooterColumn key={columns.title} title={columns.title}>
+    <ul className="regular-14 flex flex-col gap-4 text-dimWhite">
+      {columns.links.map((link) => (
+        <li key={`${columns.title}-${link.title}`}>
+          <Link href={link.href} className="hover:underline">
+            {link.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </FooterColumn>
+))}
             <div className="flex flex-col gap-5 text-white">
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
