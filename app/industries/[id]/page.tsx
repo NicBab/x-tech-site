@@ -1,5 +1,3 @@
-"use client";
-
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { Sec1CardInfo } from "@/constants/sec1";
@@ -7,6 +5,33 @@ import styles, { layout } from "@/style";
 import { Button } from "@/components";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import type { Metadata } from "next";
+
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const industry = Sec1CardInfo.find((item) => item.id === params.id);
+  
+  if (!industry) {
+    return {
+      title: "Industry Not Found",
+    };
+  }
+
+  return {
+    title: `${industry.title} Automation Solutions`,
+    description: industry.desc,
+    openGraph: {
+      title: `${industry.title} Automation Solutions | X Technology-USA`,
+      description: industry.desc,
+      images: [industry.src],
+    },
+  };
+}
+
+export async function generateStaticParams() {
+  return Sec1CardInfo.map((industry) => ({
+    id: industry.id,
+  }));
+}
 
 export default function IndustriesPage({ params }: { params: { id: string } }) {
   const index = Sec1CardInfo.findIndex((item) => item.id === params.id);

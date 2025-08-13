@@ -1,6 +1,18 @@
 import Image from "next/image";
 import styles from "@/style";
 import { ContactForm } from "@/components";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact X Technology-USA",
+  description: "Get in touch with X Technology-USA for your industrial automation needs. Contact our team of experts for SCADA systems, control design, and automation solutions.",
+  openGraph: {
+    title: "Contact X Technology-USA | Industrial Automation Consulting",
+    description: "Get in touch with X Technology-USA for your industrial automation needs. Contact our team of experts for SCADA systems, control design, and automation solutions.",
+    images: ["/X_grey_logo.png"],
+  },
+};
+
 const ContactPage = () => {
   return (
     <>

@@ -3,6 +3,17 @@ import { Button } from "@/components";
 import { Sec2CardInfo } from "@/constants/sec2";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Industrial Automation Services",
+  description: "Comprehensive automation solutions including SCADA systems, control system design, project management, and consulting services for industrial operations.",
+  openGraph: {
+    title: "Industrial Automation Services | X Technology-USA",
+    description: "Comprehensive automation solutions including SCADA systems, control system design, project management, and consulting services for industrial operations.",
+    images: ["/X_technician.png"],
+  },
+};
 
 const ServicesPage = () => {
   return (
@@ -20,10 +31,9 @@ const ServicesPage = () => {
             <Image
               src="/X_technician.png"
               alt="X_technician"
-              width={300}
-              height={240}
-              unoptimized
-              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8"
+              width={400}
+              height={380}
+              className="sm:w-[400px] sm:h-[380px] relative rounded-md z-[3] mb-8 w-auto h-auto"
             />
           </div>
         </div>
