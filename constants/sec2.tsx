@@ -30,7 +30,7 @@ export const Sec2CardInfo = [
     desc: "Businesses can monitor and manage their operations from anywhere in the world.",
     desc2: `SCADA is an advanced technology that enables remote monitoring and control of industrial processes. It provides real-time data acquisition, advanced analytics, and automated control of processes, allowing businesses to increase efficiency and productivity. With SCADA, businesses can monitor and manage their operations from anywhere in the world.`,
   },
-    {
+  {
     id: "communications",
     src: "",
     alt: "",
@@ -80,5 +80,25 @@ export const Sec2CardInfo = [
     href: "/service/commissioning",
     desc: "Our specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency.",
     desc2: `Our Commissioning and Startup service ensures that all control systems are correctly installed and are running as expected. Our team of experienced staff of specialists will provide am extensive analysis of the system and provide the necessary adjustments to get your system up and running with maximum efficiency. We guarantee that your control system will be ready to use after our Commissioning and Startup service.`,
+  },
+  {
+    id: "i-e-services",
+    src: "",
+    alt: "",
+    title: "I&E Services ",
+    icon: "/X_icon.png",
+    href: "/service/i-e-services",
+    desc: "Our I & E services deliver robust, high-performance control systems with a focus on precision and quality.",
+    desc2: `high-performance control systems with a focus on precision and quality. Our expertise includes: Panel Manufacturing & System Fabrication, Precise Tubing & Cable Installation and Termination, Process & Subsea Control System Installations, Nationwide & Offshore Service Availability`,
+  },
+  {
+    id: "service-call-outs",
+    src: "",
+    alt: "",
+    title: "Service Call-Outs",
+    icon: "/X_icon.png",
+    href: "/service/service-call-outs",
+    desc: "Our team provides rapid, reliable on-demand support to resolve your critical system issues, from emergency call-outs to long-term maintenance, ensuring your operations get back online efficiently.",
+    desc2: `Our team provides rapid, reliable on-demand support to resolve your critical system issues, from emergency call-outs to long-term maintenance, ensuring your operations get back online efficiently.`,
   },
 ];
