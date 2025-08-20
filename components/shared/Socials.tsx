@@ -15,7 +15,7 @@ export default function Socials({ className = "" }: Props) {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={title}
-          className={`inline-flex items-center ${i !== SOCIALS_ICONS.length - 1 ? "mr-6" : "mr-0"}`}
+          className={`inline-flex items-center ${i !== SOCIALS_ICONS.length - 1 ? "mr-4" : "mr-0"}`}
         >
           {/* Size via font-size, hard color via htmlColor so navbar styles can't override */}
           <span className="inline-flex text-[24px] leading-none">
