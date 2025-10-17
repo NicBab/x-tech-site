@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link
               href={link.href}
               className={`font-poppins font-normal cursor-pointer text-[18px] text-dimWhite hover:text-orange ${
-                index === NAV_LINKS.length - 1 ? "mr-0" : "mr-10"
+                index === NAV_LINKS.length - 1 ? "mr-0" : "mr-8"
               }`}
             >
               {link.label}

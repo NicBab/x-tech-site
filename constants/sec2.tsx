@@ -2,7 +2,7 @@
 export const Sec2CardInfo = [
   {
     id: "automation-solutions",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Automation Solutions",
     icon: "/X_icon.png",
@@ -10,9 +10,19 @@ export const Sec2CardInfo = [
     desc: "We provide customized solutions that integrate with your existing system and improve your overall workflow.",
     desc2: `XTechnology offers automation solutions that increase the efficiency and productivity of your operations. Our automation systems are designed to streamline your processes and reduce manual labor. We provide customized solutions that integrate with your existing system and improve your overall workflow.`,
   },
+{
+  id: "panel-fabrication",
+  src: "/berard_lift_stationPanel.png",
+  alt: "Custom UL-listed control panel fabrication",
+  title: "Panel Fabrication",
+  icon: "/X_icon.png",
+  href: "/service/panel-fabrication",
+  desc: "Custom UL-listed panel fabrication built to certified safety and quality standards.",
+  desc2: `We design and fabricate industrial control panels that are UL-listed and certified for safety, reliability, and compliance. Each panel is custom-built with quality components, precision wiring, and thorough testing to ensure long-lasting performance. From concept to delivery, our certified panel shop provides documentation and support so your operations meet the highest industry standards.`
+},
   {
     id: "control-system",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Control System Design",
     icon: "/X_icon.png",
@@ -22,7 +32,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "scada",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "SCADA",
     icon: "/X_icon.png",
@@ -32,7 +42,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "communications",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Communications",
     icon: "/X_icon.png",
@@ -42,7 +52,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "project-management",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Project Management",
     icon: "/X_icon.png",
@@ -53,7 +63,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "consulting",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Consulting",
     icon: "/X_icon.png",
@@ -63,7 +73,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "power-generation",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Power Generation and Engine Control",
     icon: "/X_icon.png",
@@ -73,7 +83,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "commissioning",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Commissioning and Startup",
     icon: "/X_icon.png",
@@ -83,7 +93,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "i-e-services",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "I&E Services ",
     icon: "/X_icon.png",
@@ -93,7 +103,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "service-call-outs",
-    src: "",
+    src: "/X_icon.png",
     alt: "",
     title: "Service Call-Outs",
     icon: "/X_icon.png",

@@ -71,15 +71,15 @@ export default function ServicePage({ params }: { params: { id: string } }) {
         className={`${styles.margins} flex md:flex-row flex-col`}
       >
         <div className={`${layout.sectionInfo} z-[4] max-h-[600px]`}>
-          {/* <div className={`${styles.flexCenter} overflow-hidden`}>
+          <div className={`${styles.flexCenter} overflow-hidden`}>
             <Image
               src={service.src}
               alt={service.alt}
               width={300}
-              height={250}
+              height={350}
               className="sm:w-[550px] sm:h-[380px] relative object-cover z-[3] mb-8 rounded-lg"
             />
-          </div> */}
+          </div>
         </div>
 
         <div className={`${layout.sectionInfo} max-w-[700px] min-w-[250px]`}>
