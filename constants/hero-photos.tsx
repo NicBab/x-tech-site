@@ -1,6 +1,11 @@
 export const HeroPhotos = [
-  {
+    {
     id: "hero-photo-1",
+    src: "/berard_lift_stationPanel.png",
+    alt: "lift_station_panel",
+  },
+  {
+    id: "hero-photo-2",
     src: "/panel_door.JPG",
     alt: "panel_door",
   },
