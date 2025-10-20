@@ -26,8 +26,8 @@ const Hero = () => {
             <Image
               src="/X_grey_logo.png"
               alt="X_logo"
-              width={800}
-              height={800}
+              width={600}
+              height={600}
               className="relative z-[2"
               priority
             />
