@@ -21,7 +21,7 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: "Office", value: "(337) 326-5570" },
     { label: "Email", value: "website@xtechnology-usa.com" },
-    { label: "Address", value: "202 Magnate Dr. suite-B, Lafayette, La" },
+    { label: "Address", value: "200 B Burgess Dr, Broussard, La, 70518" },
   ],
 };
 

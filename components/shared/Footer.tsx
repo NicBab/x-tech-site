@@ -12,11 +12,11 @@ const Footer = () => {
           <span className="block text-center leading-snug mb-5">
             X Technology
             <br />
-            202 Magnate Dr.
+            200 B Burgess Dr.
             <br />
-            Suite B
-            <br />
-            Lafayette, La. 70508
+            {/* Suite B
+            <br /> */}
+            Broussard, La, 70518
           </span>
         </div>
       </div>
