@@ -1,18 +1,18 @@
 export const HeroPhotos = [
-    {
-    id: "hero-photo-1",
-    src: "/C&R_Panel_deadfront.jpeg",
-    alt: "lift_station_panel",
+  {
+    id: "hero-photo-3",
+    src: "/panel_door.JPG",
+    alt: "panel_door",
   },
-      {
+  {
     id: "hero-photo-2",
     src: "/C&R_Panel.jpeg",
     alt: "lift_station_panel",
   },
   {
-    id: "hero-photo-3",
-    src: "/panel_door.JPG",
-    alt: "panel_door",
+    id: "hero-photo-1",
+    src: "/C&R_Panel_deadfront.jpeg",
+    alt: "lift_station_panel",
   },
   {
     id: "hero-photo-4",

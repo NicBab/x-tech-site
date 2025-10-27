@@ -73,7 +73,7 @@ export const Sec2CardInfo = [
   },
   {
     id: "power-generation",
-    src: "/X_icon.png",
+    src: "/vfd_skid.JPG",
     alt: "",
     title: "Power Generation and Engine Control",
     icon: "/X_icon.png",
