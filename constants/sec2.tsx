@@ -12,7 +12,7 @@ export const Sec2CardInfo = [
   },
 {
   id: "panel-fabrication",
-  src: "/berard_lift_stationPanel.png",
+  src: "/berard_Lift_stationPanel.png",
   alt: "Custom UL-listed control panel fabrication",
   title: "Panel Fabrication",
   icon: "/X_icon.png",
