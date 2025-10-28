@@ -1,6 +1,5 @@
 import styles, { layout } from "@/style";
-import { Button } from "@/components";
-import Sec3Card from "../ui/Sec3Card";
+import { Button, Sec3Card } from "@/components";
 
 const Section3 = () => {
   return (

@@ -1,5 +1,5 @@
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS } from "@/constants/footer";
-import { PhoneNumber, Socials } from "@/components/index";
+import { PhoneNumber, Socials } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 

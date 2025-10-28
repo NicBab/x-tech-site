@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/constants/nav";
-import { Socials } from "@/components/index";
+import { Socials } from "@/components";
 import menuIcon from "@/public/menu.svg";
 import closeIcon from "@/public/close.svg";
 
