@@ -29,10 +29,10 @@ export const SOCIALS_ICONS = [
     Icon: FacebookIcon,
     color: "rgba(255, 255, 255, 0.7)",
   },
-  {
-    title: "X",
-    href: "",
-    Icon: XIcon,
-    color: "rgba(255, 255, 255, 0.7)",
-  },
+  // {
+  //   title: "X",
+  //   href: "",
+  //   Icon: XIcon,
+  //   color: "rgba(255, 255, 255, 0.7)",
+  // },
 ] as const;
