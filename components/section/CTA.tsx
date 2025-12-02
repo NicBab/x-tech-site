@@ -27,8 +27,8 @@ const CTA = () => {
               variant="buttonPrimary"
             />
             <div className={`${styles.flexCenter} max-w-[470px] m-5`}>
-              <Socials />
-            </div>
+              <Socials />  
+            </div> 
           </div>
         </div>
       </div>

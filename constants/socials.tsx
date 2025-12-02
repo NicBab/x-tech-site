@@ -25,7 +25,7 @@ export const SOCIALS_ICONS = [
   },
   {
     title: "facebook",
-    href: "",
+    href: "https://www.facebook.com/share/17T1zaorYV/?mibextid=wwXIfr",
     Icon: FacebookIcon,
     color: "rgba(255, 255, 255, 0.7)",
   },

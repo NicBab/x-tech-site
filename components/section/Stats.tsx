@@ -13,7 +13,7 @@ const Stats = () => {
                         alt={item.alt}
                         width={200}
                         height={100}
-                        className="object-contain"
+                        className="object-contain rounded-10"
                     />
                 </div>
             ))}
