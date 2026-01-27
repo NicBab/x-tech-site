@@ -42,10 +42,10 @@ export const Sec2CardInfo = [
   },
   {
     id: "communications",
-    src: "/X_icon.png",
+    src: "/Brevard_RNG_Roc800.jpeg",
     alt: "",
     title: "Communications",
-    icon: "/X_icon.png",
+    icon: "/Brevard_RNG_Roc800.jpeg",
     href: "/service/communications",
     desc: "Seamless integration of industrial protocols ensuring reliable data flow between field devices.",
     desc2: `We specialize in implementing and troubleshooting a wide range of industrial communication protocols including 4–20mA, HART, RS-485, Modbus RTU/TCP, and more. Whether you're integrating smart sensors, connecting PLCs, or building out SCADA systems, we ensure accurate, reliable signal transmission and device interoperability`,
